@@ -15,6 +15,8 @@ permalink: /links/
 
     -   Using data I try to figure out how to avoid wasting my time.
 
+-   Old Blog on Poetry and Story pieces: <https://mysteriousadventuresblog.wordpress.com>
+
 -   Portfolio: <https://ronynn.github.io/portfolio>
     -   Have a nice looking interface to access my repos and look at past projects
 
@@ -29,7 +31,7 @@ permalink: /links/
 -   Ldjam: <https://ldjam.com/users/dobryn>
 
 -   Intfiction: <https://intfiction.org/u/r01nx/summary>
--   Mastodon or Bluesky (I'm considering it)
+<!-- -   Mastodon or Bluesky (I'm considering it) -->
 
 <hr>
 
@@ -50,8 +52,8 @@ permalink: /links/
     -   Lyrics Search:
         <https://ronynn.github.io/Front-End-Projects/Lyrics-Search/index.html>
     -   Meal Lookup:
-        <https://ronynn.github.io/Front-End-Projects/Meal-Lookup/index.html> 
-        - Works well sometimes.
+        <https://ronynn.github.io/Front-End-Projects/Meal-Lookup/index.html>
+        -   Works well sometimes.
 
 <hr>
 
