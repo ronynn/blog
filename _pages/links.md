@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /Links/
+permalink: /links/
 ---
 
 ### Links to all my projects that I'd like for you to check out:-
@@ -28,7 +28,7 @@ permalink: /Links/
 -   Itch io: <https://dobryncat.itch.io>
 -   Ldjam: <https://ldjam.com/users/dobryn>
 
--   Intfiction: <https://intfiction.org/u/r01nx/summary> 
+-   Intfiction: <https://intfiction.org/u/r01nx/summary>
 -   Mastodon or Bluesky (I'm considering it)
 
 <hr>
@@ -37,26 +37,21 @@ permalink: /Links/
 
 -   Ronynn Weather: <https://ronynn.github.io/weather>
 
-    -   Weather app with glassmorphism aesthetics fetching data from wttr api,
-        which to me seems more accurate than others.
-    -   Compare weather data between
-        regions, choose between several gradient themes.
-    -   Add to homescreen as it is a PWA app, offline compatible using last
-        fetched data.
+    -   Weather app with glassmorphism aesthetics fetching data from wttr api, which to me seems more accurate than others.
+    -   Compare weather data between regions, choose between several gradient themes.
+    -   Add to homescreen as it is a PWA app, offline compatible using last fetched data.
 
 -   Cat-gen: <https://ronynn.github.io/cat-gen>
 
     -   Generate cat images, to be turned into a live wallpaper app for android.
 
 -   Front End Apps: <https://ronynn.github.io/Front-End-Projects>
-    -   Made as part of freecodecamp certification, and then made a few more. I
-        was obsessed with neomorphism at the time, probably should make some fixes
-        in the projects. Here are some good ones:-
+    -   Made as part of freecodecamp certification, and then made a few more. I was obsessed with neomorphism at the time, probably should make some fixes in the projects. Here are some good ones:-
     -   Lyrics Search:
         <https://ronynn.github.io/Front-End-Projects/Lyrics-Search/index.html>
     -   Meal Lookup:
-        <https://ronynn.github.io/Front-End-Projects/Meal-Lookup/index.html> Works
-        well sometimes.
+        <https://ronynn.github.io/Front-End-Projects/Meal-Lookup/index.html> 
+        - Works well sometimes.
 
 <hr>
 
@@ -64,9 +59,8 @@ permalink: /Links/
 
 -   Potato Peace: <https://ronynn.github.io/potato-peace>
 
-    -   Visual Novel made with typescript, set in a world where humans and sentient
-        potatoes live together, made for spring thing 2024.
-    - Comments: [ifdb](https://ifdb.org/viewgame?id=gfa7ch1ahnun3t62)
+    -   Visual Novel made with typescript, set in a world where humans and sentient potatoes live together, made for spring thing 2024.
+    -   Comments: [ifdb](https://ifdb.org/viewgame?id=gfa7ch1ahnun3t62)
 
 -   Helper of Humanity: <https://ronynn.github.io/helper-of-humanity>
 
@@ -75,42 +69,33 @@ permalink: /Links/
 
 -   Meritocracry: <https://ronynn.github.io/meritocracy>
 
-    -   An interactive fiction about debating your professor on a cold morning,
-        made for Ifcomp 2023
-    - Comments: [ifdb](https://ifdb.org/viewgame?id=dlm5ruvo06u3kglf)
+    -   An interactive fiction about debating your professor on a cold morning, made for Ifcomp 2023
+    -   Comments: [ifdb](https://ifdb.org/viewgame?id=dlm5ruvo06u3kglf)
 
--   Aesthetics Over Plot:
-    <https://ronynn.github.io/Game-Jam-Submissions/Aesthetics>
+-   Aesthetics Over Plot: <https://ronynn.github.io/Game-Jam-Submissions/Aesthetics>
 
-    -   Get a job
-        trying to impress an omniscient cactus 🌵, a wall, and a really cool donkey,
-        made for Spring Thing 2023.
-    - Comments: [ifdb](https://ifdb.org/viewgame?id=vect2ozjqjgpy1ba)
+    -   Get a job trying to impress an omniscient cactus 🌵, a wall, and a really cool donkey, made for Spring Thing 2023.
+    -   Comments: [ifdb](https://ifdb.org/viewgame?id=vect2ozjqjgpy1ba)
 
 -   Lost in the Market: <https://ronynn.github.io/Game-Jam-Submissions/LATM>
 
-    -   Set in a fever dream when returning to your hometown after a failed music
-        career, made for Ifcomp 2022.
-    - Comments: [ifdb](https://ifdb.org/viewgame?id=55vp8gmvcg5mnfpr)
+    -   Set in a fever dream when returning to your hometown after a failed music career, made for Ifcomp 2022.
+    -   Comments: [ifdb](https://ifdb.org/viewgame?id=55vp8gmvcg5mnfpr)
 
--   Abate: Hide Behind the Curtains:
-    <https://ronynn.github.io/Game-Jam-Submissions/abate>
+-   Abate: Hide Behind the Curtains: <https://ronynn.github.io/Game-Jam-Submissions/abate>
 
-    -   A strand type game :) made in javascript using the ramus framework and
-        sugarcube-2, compiled with tweego, for Spring Thing 2022
-    - Comments: [ifdb](https://ifdb.org/viewgame?id=5801jaqmu56aateu)
+    -   A strand type game :) made in javascript using the ramus framework and sugarcube-2, compiled with tweego, for Spring Thing 2022
+    -   Comments: [ifdb](https://ifdb.org/viewgame?id=5801jaqmu56aateu)
 
 -   Unstable Vampire: <https://dobryncat.itch.io/type>
 
-    -   A typing game where you type run and dodge to escape a vampire chasing
-        you, very tough.
+    -   A typing game where you type run and dodge to escape a vampire chasing you, very tough.
     -   Comments: [itch-io](https://itch.io/jam/devtober-2021/rate/1221110),
         [ldjam](https://ldjam.com/events/ludum-dare/49/type-unstable-vampire)
 
 -   Rent officers: <https://dobryncat.itch.io/rent-officers>
 
-    -   I'd say the idea was good, perhaps I'll sit with it and improve it as I
-        wanted to.
+    -   I'd say the idea was good, perhaps I'll sit with it and improve it as I wanted to.
 
 -   Gamejam Tycoon: <https://dobryncat.itch.io/gamejam-tycoon>
 
@@ -119,15 +104,13 @@ permalink: /Links/
 
 -   What Remains of Me: [Play here](https://ifcomp.org/play/2558/play_online), for touch screens [play here](https://ronynn.github.io/Game-Jam-Submissions/wrom/wrom-touch)
 
-    -   A neo-noir comedy that takes place in my old neighbourhood, a parser game
-        blended into a retro GUI using TIC80, made for Ifcomp 2021.
+    -   A neo-noir comedy that takes place in my old neighbourhood, a parser game blended into a retro GUI using TIC80, made for Ifcomp 2021.
     -   Comments: [ifdb](https://ifdb.org/viewgame?id=qy37x4gjpzarqsil)
 
--   Catch That Kitty:
-    <https://ronynn.github.io/Game-Jam-Submissions/CatchThatKitty.html>
+-   Catch That Kitty: <https://ronynn.github.io/Game-Jam-Submissions/CatchThatKitty.html>
 
     -   Go on a mission to retrieve a stolen kitty, and treasure.
-    - Comments: [ifdb](https://ifdb.org/viewgame?id=allpmsmp8dsj3bh0)
+    -   Comments: [ifdb](https://ifdb.org/viewgame?id=allpmsmp8dsj3bh0)
 
 -   Pebbles Beneath: <https://dobryncat.itch.io/pebbles-beneath>
 
@@ -140,8 +123,7 @@ permalink: /Links/
     -   A post-apocalyptic survival demo.
 
 -   Nimble Brass: [Play here](https://ronynn.github.io/Game-Jam-Submissions/Nimble-Brass.html)
-    -   A millionare simulator, but actually my first interactive fiction piece
-        where you play as a character who suddenly turned rich.
+    -   A millionare simulator, but actually my first interactive fiction piece where you play as a character who suddenly turned rich.
 
 <hr>
 

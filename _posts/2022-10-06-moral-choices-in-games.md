@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Morality Factor in games
-categories: [Philosophy, Game Development]
+categories: [Philosophy, Game Development, Chart]
 ---
 
 Ever found yourself knee-deep in a video game, questioning every moral fiber of your being? It's like being tossed into a philosophical blender and forced to confront the consequences of your pixelated actions. These games don't just entertain; they provoke introspection. They thrust you into ethical maelstroms with no clear way out, leaving you to wrestle with your own moral compass.

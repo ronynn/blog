@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Showing the narrative analytically in essays
-categories: Miscellaneous
+categories: Writing
 ---
 
-_This was previously written for my older blog_
+
 
 Essay writing is a complex and multifaceted skill that demands both clarity and creativity from the writer. Different writers may adopt different strategies to organize and present their ideas, depending on the purpose, audience, and topic of their essays. Some writers may opt for an analytical mode that employs bullet points to outline their arguments and convey them in a concise and logical manner.
+
+_This was previously written for my older blog_
 
 Others may favor a narrative mode that employs storytelling techniques to draw the reader into a story and engage their emotions and imagination. Both modes have their advantages and disadvantages, depending on the context and the desired effect of the essay. In this essay, I will contend that a combination of analytical and narrative modes is desirable and beneficial for most types of essays. I will demonstrate this claim by analyzing the writing style of Oscar Wilde, one of the most renowned and influential writers of the late 19th century.
 

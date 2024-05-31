@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A big limitation in understanding data sets is that we think with the hypothesis first
-categories: [HTML, Code]
+categories: [Organising, Chart]
 ---
 
 Being a thinker isn't just about having a brain; it's about flexing those observational muscles and soaking up knowledge like a sponge in a library. Thinkers, the good ones at least, have seen some stuff and learned a thing or two. And based on all that observation and learning, they cook up a hypothesis. But hold your horses, what's the deal with this "careful observation is the same thing as data" spiel?

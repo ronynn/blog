@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  Pullquotes
-categories: [Writing,Blogging,Learning]
+title:  Communication is more important than silent hardwork
+categories: [Writing,Learning]
 
 ---
 
-![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-9818108.jpeg?)
+
 
 There's a certain elegance to silence, a kind of wisdom that speaks volumes without uttering a single word. Dionysius of Halicarnassus knew this well when he implored, “Let thy speech be better than silence, or be silent.” A noble sentiment, indeed, but like many pearls of wisdom cast into the vast sea of the internet, its surface allure can belie deeper truths.
+
+![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-9818108.jpeg)
 
 For writers, the art of free-writing is a cherished technique, a beacon guiding us through the murky depths of creativity. Yet, the admonition to speak only when words surpass silence threatens to stifle this very process. 
 

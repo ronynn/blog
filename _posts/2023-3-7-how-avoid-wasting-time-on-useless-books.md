@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Search for the Sacrosanct
-categories: [Reading,Books]
+categories: [Notetaking,Organisation,Learning]
 
 ---
 

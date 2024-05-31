@@ -1,18 +1,19 @@
 ---
 layout: post
 title: Why I think using markdown is better than powerpoint for making presentations
-categories: [Notetaking, Organisation, Slides]
+categories: [Notetaking, Organisation]
 ---
 
-> “Nothing astonishes men so much as common sense and plain dealing.” – Ralph Waldo Emerson
-
-_This post was originally written on my older blog_
 
 We live in an age of information and communication. We are constantly required to share our ideas and knowledge with others, in various forms and formats. One of the most common and popular forms of communication is the presentation. A presentation is a way of delivering information to an audience, using visual aids and verbal explanations.
+
+_This post was originally written on my older blog_
 
 However, not all presentations are created equal. Some are clear and effective, while others are confusing and boring. Some are engaging and persuasive, while others are dull and forgettable. Some are original and creative, while others are clichéd and repetitive.
 
 What makes the difference between a good and a bad presentation? Is it the content, the delivery, the design, or the format? I believe that all these factors are important, but one of them is often overlooked or neglected: the format.
+
+> “Nothing astonishes men so much as common sense and plain dealing.” – Ralph Waldo Emerson
 
 The format of a presentation is the way it is structured and organized, using certain tools and conventions. The most common and widely used format for presentations is the slide. A slide is a single page of information that contains text, images, graphs, charts, or other elements. A presentation usually consists of a series of slides that are shown on a screen or projector.
 

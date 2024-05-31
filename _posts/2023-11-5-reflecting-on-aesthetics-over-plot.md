@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reflecting on “Aesthetics Over Plot”
-categories: [Gamedev, Philosophy,Writing]
+categories: [Game Development, Philosophy,Writing]
 ---
 
 Ah, the delightful dance of creativity, where imagination takes flight and reality fades into the background. As both a wordsmith and an artist, I've long been enamored with the intoxicating allure of artistic expression. For me, art isn't just a mere pastime; it's a transcendental journey that challenges societal norms and revels in the absurdity of existence.

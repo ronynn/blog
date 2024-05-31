@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How I take notes
-categories: [notetaking,writing]
+categories: [Notetaking,Writing]
 
 ---
 

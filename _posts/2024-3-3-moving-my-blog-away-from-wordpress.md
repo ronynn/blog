@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving my blog away from wordpress.com
-categories: [Organising, Writing]
+categories: [Organising, Writing,Chart]
 ---
 
 My tale begins with an earnest venture into the digital landscape, armed with nothing but a keyboard and an unquenchable thirst for storytelling. WordPress.com was my stage, my canvas, and for a time, my sanctuary.

@@ -4,7 +4,7 @@ title: Picking the best design system for my apps
 categories: [Design, Javascript]
 ---
 
-“"Design is not just what it looks like and feels like. Design is how it works,” said that fellow Jobs, and I'll be damned if he wasn’t onto something.
+"Design is not just what it looks like and feels like. Design is how it works,” said Steve Jobs, and he was onto something.
 
 I've been tinkering with web apps for years now. It's not some grand career or anything; it's just a hobby that keeps me out of trouble. I whip up all sorts of things – games, calculators, quizzes – you name it, I've probably had a crack at it. But here's the rub: my themes are as stale as last week’s bread. I’ve been recycling the same look for ages, and frankly, it's making me want to gag.
 

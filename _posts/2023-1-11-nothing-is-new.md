@@ -3,9 +3,11 @@ layout: post
 title: Nothing is new
 categories: [Inspiration, Writing]
 ---
-![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-3199028.jpeg)
 
 "Everything ever to be invented has already been invented." So claimed Charles Holland Duell, a man of apparent certainty in an era of boundless possibility. Yet, as we gaze upon the expanse of human achievement and progress, it's hard not to feel a pang of skepticism lurking beneath the surface.
+
+![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-3199028.jpeg)
+
 
 In our age of ceaseless innovation and technological marvels, it's easy to fall into the trap of believing that we are the pioneers of progress, the architects of a new dawn. But are we truly charting unexplored territory, or merely retracing the footsteps of those who came before us?
 

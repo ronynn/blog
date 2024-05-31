@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Being busy doing nothing
-categories: [Philosophy, Learning,Inspiration]
+categories: [Philosophy, Learning,Inspiration,Chart]
 ---
 
 You know that quote from Lao Tzu, “Doing nothing is better than being busy doing nothing”? It’s been bugging me. I thought I agreed with it, but now I’m not so sure. I mean, a lot of the stuff we keep ourselves busy with feels like nothing—either foolish or just ways to pass the time.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Doomsday Programmer
-categories: [HTML, Code]
+categories: [Javascript, Nim]
 ---
 
 Programming is a craft that can create wonders?machines, games, art?but too many of us have gotten lazy. We've fallen into the trap of relying on crutches?libraries, frameworks, fancy editors?that promise to make our lives easier but end up weighing us down. Enter doomsday programming: the antidote to our crutch addiction. I'm here to make the case for stripping things down to the bare essentials and embracing the doomsday way.

@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Writing on the Go
-categories: [Writing,Travel]
+categories: [Writing,Organisation]
 
 ---
-![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-892541.jpeg)
 
 
 So, picture this: writing on the go. Sounds adventurous, right? Taking that term literally, it means scribbling down your thoughts whenever you’re out and about—maybe sitting in a café or lounging on a park bench. Personally, I find those spots to be the gold mines of inspiration. Whether you’re into travel, food, short stories, or sci-fi epics, the world around you—the trees, the birds, the people—offers up endless material.
+
+![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-892541.jpeg)
 
 Out there in the wild, you’re soaking up all kinds of sights, sounds, and smells. It’s like a sensory overload that kicks your creativity into high gear. Take a busy café, for example: the aroma of coffee, the buzz of conversations, the ebb and flow of life all around you. Each element is a potential story waiting to be told.
 

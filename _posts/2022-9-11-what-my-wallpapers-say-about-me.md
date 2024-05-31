@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What my wallpapers say about me
-categories: [HTML, Code]
+categories: [Philosophy, Inspiration,Writing]
 ---
 
 ![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-354939.jpeg)
