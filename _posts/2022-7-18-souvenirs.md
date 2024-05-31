@@ -2,12 +2,11 @@
 layout: post
 title: Gathering Souvenirs
 categories: [Philosophy, Writing]
-excerpt: ![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-4551926.jpeg) Ah, souvenirs—the relics of our past, the tokens of our memories, and the bane of my existence. Let's get real for a minute: they're nothing more than glorified trinkets destined to meet a sorry end
 ---
+Ah, souvenirs—the relics of our past, the tokens of our memories, and the bane of my existence. Let's get real for a minute: they're nothing more than glorified trinkets destined to meet a sorry end.
 
 ![](https://mysteriousadventuresblog.wordpress.com/wp-content/uploads/2023/05/pexels-photo-4551926.jpeg)
 
-Ah, souvenirs—the relics of our past, the tokens of our memories, and the bane of my existence. Let's get real for a minute: they're nothing more than glorified trinkets destined to meet a sorry end.
 
 Take journals, for instance. Sure, they seem like a good idea at the time—scribbling down your deepest thoughts and grandest adventures. But what happens when they get lost, burnt, or damaged beyond recognition? Poof! There goes your memoir in the making.
 
