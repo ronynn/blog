@@ -37,6 +37,3 @@ Any changes we may make to our privacy policy in the future will be posted on th
 **Contact**
 
 Questions, comments, and requests regarding this privacy policy are welcomed and should be addressed to the issues section of this repository.
-
-
- ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)

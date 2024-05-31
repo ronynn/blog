@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**About This Blog: Overthinking Analytically**
+### About This Blog: Overthinking Analytically
 
 Welcome, dear reader, to a realm where the ordinary undergoes the extraordinary transformation of being over-analyzed, and every fleeting thought is dissected with the precision of a Victorian surgeon. I am your humble host, an individual so dedicated to the pursuit of self-knowledge that I have rendered even the most mundane of daily activities into a series of fascinating data points.
 
