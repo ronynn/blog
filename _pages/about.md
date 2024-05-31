@@ -34,8 +34,6 @@ In addition to my analytical adventures, this blog serves as a chronicle of my e
 
 Expect posts filled with insights, challenges, and triumphs. Marvel at the sketches and prototypes that evolve into fully-fledged applications and games. And, of course, enjoy the occasional Wildean quip about the absurdities and joys of the creative process.
 
-### In Conclusion: An Invitation to the Curious
+### An Invitation to the Curious
 
 So, dear reader, I invite you to join me on this journey of overly analytical musings. Whether you are a fellow seeker of self-knowledge, a lover of data, or simply someone who enjoys a good laugh, there is something here for you. Together, let us explore the intricacies of the everyday and find humor and wisdom in the act of over-analysis.
-
-In the grand tradition of Oscar Wilde, I leave you with this thought: “Be yourself; everyone else is already taken.” And so, with charts in hand and wit at the ready, I embark on this quest to be myself—excessively, analytically, and always with a touch of humor.

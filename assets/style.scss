@@ -332,6 +332,12 @@ p > img {
   }
 }
 
+canvas {
+                background-color: rgba(255, 255, 255, 0.6);
+                margin: 7%%;
+                border-radius: 8px;
+            }
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
@@ -703,8 +709,8 @@ Modules - reusable parts of our design
   font-size: 14.5px;
   padding: 2px 13px;
   border: none;
-  background-color: #4CAF50;
-  border-radius: 50px;
+  background-color: #2196F3;
+  border-radius: 12px;
   color: #fff;
 }
 
