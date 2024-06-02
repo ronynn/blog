@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Morality Factor in games
+title: Moral choices in games
 categories: [Philosophy, Game Development, Chart]
 ---
 
@@ -24,12 +24,14 @@ Now, I'm no stranger to the moral quandaries of gaming. But this time, I decided
 
 So, for months straight, I dove headfirst into ten different games. Every time I hit a crossroads, every time the game threw a moral curveball my way, I made a mark in my trusty notebook—enlightening on one side, boring on the other.
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <div style="width: 600px; margin: 20px auto;">
-        <canvas id="gameChoicesChart"></canvas>
-    </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <script>
+
+  <canvas id="gameChoicesChart"></canvas>
+
+
+  <script>
+    
         // Data for the chart
         const gameData = {
             labels: ["Game 1", "Game 2", "Game 3", "Game 4", "Game 5", "Game 6", "Game 7", "Game 8", "Game 9", "Game 10"],
@@ -46,7 +48,7 @@ So, for months straight, I dove headfirst into ten different games. Every time I
                     backgroundColor: 'rgba(255, 99, 132, 0.5)',
                     borderColor: 'rgba(255, 99, 132, 1)',
                     borderWidth: 1,
-                    data: [13, 4, 12, 5, 11, 3, 4, 12, 13, 4] 
+                    data: [13, 4, 12, 5, 11, 3, 4, 12, 13, 4]
                 }
             ]
         };
@@ -80,6 +82,7 @@ So, for months straight, I dove headfirst into ten different games. Every time I
             data: gameData,
             options: options
         });
+        
     </script>
 
 Here's the rundown of the ten games that took me on a rollercoaster ride of moral introspection:
@@ -100,7 +103,6 @@ Each one brought its own flavor to the table, although I don't feel like mention
 And let me tell you, the results were eye-opening. Turns out, some games are masterpieces of moral complexity, weaving narratives that make you question everything you thought you knew about right and wrong. Others? Well, let's just say they're about as thrilling as watching paint dry.
 
 But hey, that's the beauty of experimentation, right? You never know what you'll uncover until you roll up your sleeves and dive in. And let me tell you, this little dive into the world of gaming morality left me with more questions than answers. But isn't that what makes life—and gaming—so darn interesting?
-
 
 So here's the kicker: morality in games is a double-edged sword. It can leave you feeling enlightened one minute and infuriated the next. It's a wild rollercoaster ride, with no clear destination in sight. But hey, that's the beauty of it, right? It's a reflection of our own moral landscapes, a chance to question and maybe even change ourselves in the process.
 

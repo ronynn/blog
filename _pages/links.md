@@ -69,7 +69,7 @@ permalink: /links/
     -   Text advenventure made with TIC80 fantasy console, with your goal to save humanity you start from your neighbourhood.
     -   Game Off 2023 ratings: <https://itch.io/jam/game-off-2023/rate/2388160>
 
--   Meritocracry: <https://ronynn.github.io/meritocracy>
+-   Meritocracry: <https://ronynn.github.io/Game-Jam-Submissions/meritocracy>
 
     -   An interactive fiction about debating your professor on a cold morning, made for Ifcomp 2023
     -   Comments: [ifdb](https://ifdb.org/viewgame?id=dlm5ruvo06u3kglf)

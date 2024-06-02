@@ -30,7 +30,7 @@ But I am not one to just sit with it so I kept some data on my activities diving
 
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
+
 <body>
     <canvas id="myChart" width="400" height="400"></canvas>
     <script>

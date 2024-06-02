@@ -99,8 +99,8 @@ And wouldn't you know it, the results were eye-opening. Whenever the clock was t
 
   <script>
     // Sample data
-    const studyHoursSelf = [4, 5, 3, 6, 4]; // Self-calculated study hours
-    const studyHoursActual = [3, 4, 2, 5, 3]; // Actual studying hours measured by Node.js
+    const studyHoursSelf = [4.6, 5.6, 3.4, 5.8, 4.4]; // Self-calculated study hours
+    const studyHoursActual = [3.1, 3.3, 2.2, 2.8, 3.5]; // Actual studying hours measured by Node.js
 
     // Chart.js configuration
     const ctx = document.getElementById('studyHoursChart').getContext('2d');
