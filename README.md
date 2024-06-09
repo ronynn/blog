@@ -1,6 +1,6 @@
-# Overly Analytical Musings - Blog Repository
+# Overthinking Analytically - Blog Repository
 
-Welcome to the repository for "Overly Analytical Musings," a blog dedicated to detailed, humorous, and insightful explorations of everyday activities. Here, I document my focused study hours, casual reading habits, gaming versus social media usage, and more—all with the help of stats and charts. Additionally, this blog serves as a chronicle of my app and game development journey.
+Welcome to the repository for "Overthinking Analytically," a blog dedicated to detailed, humorous, and insightful explorations of everyday activities. Here, I document my focused study hours, casual reading habits, gaming versus social media usage, and more—all with the help of stats and charts. Additionally, this blog serves as a chronicle of my app and game development journey.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the repository for "Overly Analytical Musings," a blog dedicated to d
 
 ## About the Blog
 
-"Overly Analytical Musings" is a Jekyll-based blog hosted on GitHub Pages. It features a mobile-friendly, simple design that will evolve as I develop my design language. The blog aims to provide insightful and entertaining content, blending data-driven analysis with a touch of humor in the style of Oscar Wilde.
+"Overthinking Analytically" is a Jekyll-based blog hosted on GitHub Pages. It features a mobile-friendly, simple design that will evolve as I develop my design language. The blog aims to provide insightful and entertaining content, blending data-driven analysis with a touch of humor in the style of Oscar Wilde.
 
 ## Technology Stack
 
@@ -29,7 +29,7 @@ To set up this project locally, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/overly-analytical-musings.git
+    git clone https://github.com/ronynn/blog.git
     cd overly-analytical-musings
     ```
 
@@ -105,6 +105,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions, suggestions, or just want to say hello, feel free to reach out:
 
-- **Mastodon**: I plan to make a profile soon lets wait for it.
+- **Mastodon**: @overlyanalytic@mastodon.social
 
 Thank you for visiting "Overthing Analytically" blog's repo! Happy reading and analyzing!
