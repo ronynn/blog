@@ -126,7 +126,6 @@
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
       <select id="theme-selector">
-        <option value="">Default</option>
         <option value="gruvbox">Gruvbox</option>
         <option value="monokai">Monokai</option>
         <option value="dracula">Dracula</option>
@@ -136,6 +135,7 @@
         <option value="tokyo-night">Tokyo Night</option>
         <option value="everforest">Everforest</option>
         <option value="cupcake">Cupcake</option>
+        <option value="">Default</option>
       </select>
       
       <button id="toggle-vanta" class="button">Turn Off 3D</button>
@@ -182,6 +182,11 @@ document.getElementById('toggle-vanta').addEventListener('click', function() {
     this.textContent = "Turn Off 3D";
   }
 });
+
+document.getElementById('theme-selector').addEventListener('change', function() {
+        document.body.setAttribute('data-theme', this.value);
+        initVanta();
+      });
     </script>
   </body>
 </html>

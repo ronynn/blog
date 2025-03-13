@@ -15,7 +15,6 @@ theme: minima
 paginate: 5
 paginate_path: "/page:num"
 plugins:
-  - jekyll-paginate
   - jekyll-feed
   
 include:
