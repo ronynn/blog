@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<a class="back-link back-top" href="{{ '/' | relative_url }}">../</a>
+  
+  
+  
+<article>
+  <h2>{{ page.title }}</h2>
+  <p>{{ page.date | date: "%B %d, %Y" }}</p>
+  {{ content }}
+  
+  
+  <p>Tags: 
+    {% for tag in page.tags %}
+      <a href="{{ '/tags/' | append: tag | relative_url }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+</article>
+  
+  
+  
+<a class="back-link back-bottom" href="{{ '/' | relative_url }}">../</a>

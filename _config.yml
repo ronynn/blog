@@ -1,0 +1,23 @@
+# _config.yml
+
+title: ronynn blog
+description: "A minimal blog with multiple themes and a Vanta.js dots background."
+baseurl: "/blog"               
+
+
+url: "https://ronynn.github.io"  
+
+
+markdown: kramdown
+theme: minima   
+
+
+paginate: 8
+paginate_path: "/page:num"
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+
+# Custom Variables
+default_theme: "gruvbox"   # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest
