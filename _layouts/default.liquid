@@ -16,6 +16,7 @@
         margin: 0;
         padding: 0;
         height: 100%;
+        background-color:var(--bg);
       }
       
       body {
@@ -36,6 +37,62 @@
       header, main {
         margin: 1rem 0;
       }
+      
+      
+      
+      /* Flex container for header controls */
+      .header-controls {
+        display: flex;
+        align-items: center;
+      }
+      
+      
+      /* Popover styling for theme selector */
+      .popover {
+        position: relative;
+        margin-left: 1rem;
+      }
+      
+      
+      .popover button {
+        padding: 0.5rem 1rem;
+      }
+      
+      
+      .popover-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        list-style: none;
+        padding: 0.5rem;
+        margin: 0;
+        width: 150px;
+        z-index: 10;
+      }
+      
+      
+      .popover-list li {
+        margin: 0.3rem 0;
+      }
+      
+      
+      .popover-list li a {
+        color: var(--text);
+        text-decoration: none;
+      }
+      
+      
+      /* Button to toggle Vanta */
+      #toggle-vanta {
+        /* Float left in the header controls */
+        margin-right: 1rem;
+      }
+      
+      
+      
       
       
       /* Navigation link spacing */
@@ -69,7 +126,7 @@
       pre {
         background: var(--input-bg);
         color: var(--text);
-        border: 1px solid var(--border);
+        --border: 1px solid var(--border);
         border-radius: 0.4rem;
         padding: 1rem;
         overflow: auto;
@@ -109,7 +166,6 @@
       <h1>{{ site.title }}</h1>
       <p>{{ site.description }}</p>
       <select id="theme-selector">
-        <option value="">Default</option>
         <option value="gruvbox">Gruvbox</option>
         <option value="monokai">Monokai</option>
         <option value="dracula">Dracula</option>
@@ -118,6 +174,8 @@
         <option value="catppuccin">Catppuccin</option>
         <option value="tokyo-night">Tokyo Night</option>
         <option value="everforest">Everforest</option>
+        <option value="">Light</option>
+        <option value="cupcake">Cupcake</option>
       </select>
     </header>
     
@@ -128,21 +186,20 @@
     
     
     <!-- Three.js (approx. 600KB minified) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     
     
     <!-- Vanta.js Dots (approx. 80KB minified) -->
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
     
     
-    <script>
+      <script>
       var vantaEffect;
+      var vantaOn = true;
       
       
       function initVanta() {
         if (vantaEffect) vantaEffect.destroy();
-        
-        
         vantaEffect = VANTA.DOTS({
           el: "#vanta-bg",
           color: getComputedStyle(document.body).getPropertyValue('--button').trim() || 0x000000,
@@ -156,9 +213,45 @@
       initVanta();
       
       
-      document.getElementById('theme-selector').addEventListener('change', function() {
-        document.body.setAttribute('data-theme', this.value);
-        initVanta();
+      document.getElementById('toggle-vanta').addEventListener('click', function() {
+        if (vantaOn) {
+          if (vantaEffect) vantaEffect.destroy();
+          vantaOn = false;
+          this.textContent = "Turn On Vanta";
+        } else {
+          initVanta();
+          vantaOn = true;
+          this.textContent = "Turn Off Vanta";
+        }
+      });
+      
+      
+      var popoverBtn = document.getElementById('theme-popover-btn');
+      var popoverList = document.getElementById('theme-popover-list');
+      
+      
+      popoverBtn.addEventListener('click', function(e) {
+        popoverList.style.display = (popoverList.style.display === "block") ? "none" : "block";
+      });
+      
+      
+      var themeLinks = popoverList.querySelectorAll('a');
+      themeLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var theme = this.getAttribute('data-theme');
+          document.body.setAttribute('data-theme', theme);
+          if (vantaOn) initVanta();
+          popoverList.style.display = "none";
+        });
+      });
+      
+      
+      // Optional: Hide popover when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!popoverBtn.contains(e.target) && !popoverList.contains(e.target)) {
+          popoverList.style.display = "none";
+        }
       });
     </script>
   </body>

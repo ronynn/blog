@@ -37,6 +37,17 @@ body {
    --input-text: #ebdbb2;
 }
 
+[data-theme="cupcake"] {
+   --bg: #fff1f2;
+   --text: #d6336c;
+   --border: #f8d7da;
+   --button: #ffb3c1;
+   --button-hover: #ff80ab;
+   --input-bg: #fff;
+   --input-border: #f8d7da;
+   --input-text: #d6336c;
+}
+
 
 
 [data-theme="monokai"] {
