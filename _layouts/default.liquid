@@ -2,17 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
     
     
     <link rel="stylesheet" href="{{ '/assets/css/milligram.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}">
-    
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
-
+    
     
     <style>
-      /* Additional custom styles */
       html, body {
         margin: 0;
         padding: 0;
@@ -30,27 +29,48 @@
       }
       
       
-      .back-link {
-        position: absolute;
-        left: 10px;
-        cursor: pointer;
-        text-decoration: underline;
-        color: var(--button);
+      header, main {
+        margin: 1rem 0;
       }
       
       
-      .back-top { top: 10px; }
+      /* Navigation link spacing */
+      .nav-link {
+        margin: 1rem 0;
+      }
       
       
-      .back-bottom { bottom: 10px; }
+      /* Dropdown styling */
+      #theme-selector {
+        color: var(--text);
+        background-color: var(--input-bg);
+        border: 1px solid var(--border);
+        padding: 0.5rem;
+      }
+      
+      
+      /* Code block styling */
+      code {
+        background: var(--input-bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 0.4rem;
+        font-size: 0.9em;
+        padding: 0.2rem 0.4rem;
+      }
+      
+      
+      /* Posts list styling */
+      .posts-list li {
+        margin-bottom: 1rem;
+      }
     </style>
   </head>
   
   
-
   <body data-theme="{{ site.default_theme | default: '' }}">
     
-  
+    
     <div id="vanta-bg"></div>
     
     
@@ -95,7 +115,9 @@
         vantaEffect = VANTA.DOTS({
           el: "#vanta-bg",
           color: getComputedStyle(document.body).getPropertyValue('--button').trim() || 0x000000,
-          backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg').trim() || 0xffffff
+          backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg').trim() || 0xffffff,
+          scaleMobile: 1.00,
+          showLines: false
         });
       }
       

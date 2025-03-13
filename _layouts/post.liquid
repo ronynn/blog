@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<a class="back-link back-top" href="{{ '/' | relative_url }}">../</a>
+<div class="nav-link">
+  <a href="{{ '/' | relative_url }}">../</a>
+</div>
   
   
   
@@ -10,7 +12,6 @@ layout: default
   <h2>{{ page.title }}</h2>
   <p>{{ page.date | date: "%B %d, %Y" }}</p>
   {{ content }}
-  
   
   <p>Tags: 
     {% for tag in page.tags %}
@@ -21,4 +22,6 @@ layout: default
   
   
   
-<a class="back-link back-bottom" href="{{ '/' | relative_url }}">../</a>
+<div class="nav-link">
+  <a href="{{ '/' | relative_url }}">../</a>
+</div>
