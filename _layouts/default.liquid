@@ -158,6 +158,19 @@
 var vantaEffect;
 var vantaOn = true;
 
+// Load saved theme and Vanta state before anything
+var savedTheme = localStorage.getItem('selectedTheme') || '';
+var savedVantaState = localStorage.getItem('vantaOn');
+
+// Apply saved theme immediately
+document.body.setAttribute('data-theme', savedTheme);
+
+// Convert string to boolean and apply saved Vanta state
+if (savedVantaState === "false") {
+  vantaOn = false;
+}
+
+// Function to initialize Vanta.js
 function initVanta() {
   if (vantaEffect) vantaEffect.destroy();
   vantaEffect = VANTA.DOTS({
@@ -169,76 +182,33 @@ function initVanta() {
   });
 }
 
-initVanta();
-
-document.getElementById('toggle-vanta').addEventListener('click', function() {
-  if (vantaOn) {
-    if (vantaEffect) vantaEffect.destroy();
-    vantaOn = false;
-    this.textContent = "Turn On 3D";
-  } else {
-    initVanta();
-    vantaOn = true;
-    this.textContent = "Turn Off 3D";
-  }
-});
-
-document.getElementById('theme-selector').addEventListener('change', function() {
-        document.body.setAttribute('data-theme', this.value);
-        initVanta();
-      });
-      
-      
-      // Retrieve saved settings from localStorage
-var savedTheme = localStorage.getItem("theme");
-var savedVantaState = localStorage.getItem("vantaOn");
-
-// Set initial theme (if any)
-if (savedTheme) {
-  document.body.setAttribute('data-theme', savedTheme);
-  var themeSelector = document.getElementById('theme-selector');
-  if (themeSelector) themeSelector.value = savedTheme;
-}
-
-// Set initial Vanta state (default true)
-var vantaOn = (savedVantaState === null) ? true : (savedVantaState === "true");
-var vantaEffect;
-
-function initVanta() {
-  if (vantaEffect) vantaEffect.destroy();
-  vantaEffect = VANTA.DOTS({
-    el: "#vanta-bg",
-    color: getComputedStyle(document.body).getPropertyValue('--button').trim() || 0x000000,
-    backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg').trim() || 0xffffff,
-    scaleMobile: 1.00,
-    showLines: false
-  });
-}
-
-// Initialize Vanta only if vantaOn is true
+// Initialize Vanta only if it was not turned off
 if (vantaOn) {
   initVanta();
 }
-document.getElementById('toggle-vanta').textContent = vantaOn ? "Turn Off vanta" : "Turn On vanta";
 
+// Vanta toggle button
 document.getElementById('toggle-vanta').addEventListener('click', function() {
   if (vantaOn) {
     if (vantaEffect) vantaEffect.destroy();
     vantaOn = false;
-    this.textContent = "Turn On vanta";
+    localStorage.setItem('vantaOn', "false");
+    this.textContent = "Turn On Vanta";
   } else {
     initVanta();
     vantaOn = true;
-    this.textContent = "Turn Off vanta";
+    localStorage.setItem('vantaOn', "true");
+    this.textContent = "Turn Off Vanta";
   }
-  localStorage.setItem("vantaOn", vantaOn);
 });
 
+// Theme selector change event
 document.getElementById('theme-selector').addEventListener('change', function() {
   var selectedTheme = this.value;
   document.body.setAttribute('data-theme', selectedTheme);
-  localStorage.setItem("theme", selectedTheme);
-  // Only reinitialize Vanta if it's turned on
+  localStorage.setItem('selectedTheme', selectedTheme);
+
+  // Only reinitialize Vanta if it is currently active
   if (vantaOn) {
     initVanta();
   }
