@@ -18,6 +18,10 @@
         height: 100%;
       }
       
+      body {
+        padding: 2rem 2rem 0 2rem; /* padding: top, right, bottom (0), left */
+      }
+      
       
       #vanta-bg {
         position: fixed;
@@ -36,7 +40,7 @@
       
       /* Navigation link spacing */
       .nav-link {
-        margin: 1rem 0;
+        margin: 2rem;
       }
       
       
@@ -57,6 +61,33 @@
         border-radius: 0.4rem;
         font-size: 0.9em;
         padding: 0.2rem 0.4rem;
+      }
+      
+          
+      
+      /* Code block styling for preformatted blocks */
+      pre {
+        background: var(--input-bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 0.4rem;
+        padding: 1rem;
+        overflow: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+      
+      
+      /* Override Markdown list styling: remove default bullet and use a dash */
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      
+      
+      ul li:before {
+        content: "- ";
+        color: var(--text);
       }
       
       

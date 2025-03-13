@@ -13,24 +13,24 @@ title: Home
     {% endfor %}
   </ul>
 </section>
-  
-  
+
   
 <section>
   <h2>Blog Posts</h2>
   <ul class="posts-list">
-    {% for post in paginator.posts %}
-      <li>- <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+    {% assign posts = paginator.posts | default: site.posts %}
+    {% for post in posts %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
     {% endfor %}
   </ul>
   
   
   
   <nav class="pagination">
-    {% if paginator.previous_page %}
+    {% if paginator and paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
     {% endif %}
-    {% if paginator.next_page %}
+    {% if paginator and paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
     {% endif %}
   </nav>
