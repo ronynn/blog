@@ -17,6 +17,9 @@ paginate_path: "/page:num"
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  
+include:
+  - _pages
 
 
 # Custom Variables

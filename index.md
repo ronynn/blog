@@ -30,3 +30,7 @@ title: Home
     {% endfor %}
   </ul>
 </section>
+
+<section>
+  <a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS Feed</a>
+</section>
