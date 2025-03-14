@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: TechStack
+permalink: /tech-stack/
 ---
 
 ## Currently Learning actively

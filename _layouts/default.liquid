@@ -31,6 +31,14 @@
         padding: 2rem 2rem 0 2rem; /* padding: top, right, bottom (0), left */
       }
       
+      @media (min-width: 800px) {
+
+       body {
+  	padding-left:20%;
+  	padding-right:20%;
+  }
+}
+      
       
       #vanta-bg {
         position: fixed;
@@ -207,12 +215,12 @@ document.getElementById('toggle-vanta').addEventListener('click', function() {
     if (vantaEffect) vantaEffect.destroy();
     vantaOn = false;
     localStorage.setItem('vantaOn', "false");
-    this.textContent = "Turn On Vanta";
+    this.textContent = "Toggle 3d";
   } else {
     enableVanta();
     vantaOn = true;
     localStorage.setItem('vantaOn', "true");
-    this.textContent = "Turn Off Vanta";
+    this.textContent = "Toggle 3d";
   }
 });
 
