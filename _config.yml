@@ -1,7 +1,7 @@
 # _config.yml
 
 title: ronynn's blog
-description: "A minimal blog with multiple themes and a Vanta.js dots background."
+description: "ronynn's blog on foss apps and games with multiple themes and a Vanta.js dots background."
 baseurl: "/blog"               
 
 
