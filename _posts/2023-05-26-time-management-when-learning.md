@@ -16,7 +16,7 @@ There's something special about the crack of dawn, when the world's still half-a
 Save the night for reflection: When the sun sets and the world grows quiet, that's when it's time to take stock of the day's victories and defeats. It's not about cramming in last-minute studying or trying to learn something new. No, sir, it's about revisiting what you've already learned, reinforcing those neural pathways, and tucking them in nice and snug for the night. Anything else is just asking for trouble, a surefire recipe for a restless sleep and a groggy morning after.
 
 
-![](https://ronynn.github.io/assets/images/writing.jpg)
+![](assets/images/writing.jpg)
 
 In the inundation of information that characterizes our modern existence, we find ourselves awash in a sea of facts and figures, each vying for our attention. It's akin to a buffet spread before us, yet not all are worthy of consumption. So why squander our intellectual appetite on trivialities that fail to nourish our minds or advance our pursuits? Let us adopt a discerning palate, focusing solely on the substantive material that aligns with our objectives and aspirations. It's not about amassing encyclopedic knowledge; rather, it's about cultivating a depth of understanding in the areas that truly matter.
 

@@ -26,8 +26,7 @@ permalink: /projects/
 ### Amayori Labs
 A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honojs
 
-- Mastodon: foss.social
-- Homepage: <https://amayorilabs.github.io>
+- Homepage: <https://ronynn.github.io/amayorilabs>
 - Amayori Sleep Tracker
 - Breath Timer
 - Pomodoro Timer
@@ -66,10 +65,11 @@ A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honoj
 
 - Foggy Restart (ongoing)
   - For Ifcomp 2025
+
 - Interview Interview (ongoing)
   - For SpringThing 2025
-  - 
-- House that Whispers:
+
+- House that Whispers: 
   - Parser based interactive fiction in javascript
 
 - Potato Peace: <https://ronynn.github.io/potato-peace>

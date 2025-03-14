@@ -18,6 +18,6 @@ Creating this game taught me something, too. I learned more about making games, 
 
 Now, I want to share this game with you. You can find it on my website, under the name “Aesthetics Over Plot.” It’s free to play, and it runs right in your browser. It’s a simple game, but I hope it will entertain you and make you laugh.
 
-[Here is the link to the game and all the other games I made.](https://ronynn.github.io/Game-Jam-Submissions/Aesthetics)
+[Here is the link to the game.](https://ronynn.github.io/Game-Jam-Submissions/Aesthetics)
 
 Thank you for listening to my story. I hope you enjoy the game, and I hope you remember to celebrate your friends’ birthdays. Show them your love and gratitude. After all, that’s what life is about.
