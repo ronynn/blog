@@ -3,7 +3,6 @@ layout: post
 title: Best practices for collaborative storytelling
 categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/cassette.jpg
 ---
 
 Collaborative storytelling in the context of game design is a powerful way to build dynamic and engaging narratives, especially for text-based games. When creating a game that relies on the contributions of a wide and diverse group of community members, the process becomes even more complex. In my current project, I'm designing a **web-based life simulator game** where both coders and non-coders from the community can submit random events that shape the narrative of the game. The game is designed to evolve and change with each submission, creating a constantly shifting world. This kind of collaborative storytelling offers a unique set of challenges and opportunities, requiring careful management and thoughtful practices to ensure that the game remains cohesive, engaging, and fun.
@@ -11,6 +10,8 @@ Collaborative storytelling in the context of game design is a powerful way to bu
 ### 1. Setting Clear Guidelines for Submissions
 
 One of the most important aspects of collaborative storytelling is establishing clear, well-communicated guidelines for the types of events that can be submitted. These guidelines not only help to ensure the quality and relevance of community contributions but also provide a framework that helps prevent submissions from derailing the narrative or being out of sync with the established tone and mechanics of the game.
+
+[!Cassette](assets/images/cassette.jpg)
 
 #### **Content Boundaries**
 For a life simulator game, the narrative could span a wide range of events—everything from everyday activities like going to work or getting married, to more extreme events like natural disasters or winning the lottery. But for the game to remain coherent, it’s important to have boundaries around what types of events are appropriate. 

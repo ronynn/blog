@@ -27,6 +27,8 @@ In romantic IF games, characters are everything. A romance is only as strong as 
 
 There are several character archetypes commonly used in romance stories, but the challenge in interactive fiction is to subvert these archetypes and avoid clichés. Rather than relying on surface-level traits, romantic interests should have deep emotional complexity. The goal is to create characters that players can relate to or desire, characters who evoke empathy or challenge the player’s perceptions of love and relationships.
 
+[!cassette](assets/images/cassette.jpg)
+
 Some character-building strategies include:
 - **Developing complex backstories**: The characters’ past experiences, traumas, and triumphs shape how they approach relationships. These backstories should be slowly revealed through dialogue choices and interactions, allowing the player to understand the romantic interest more deeply as the story progresses.
 - **Offering meaningful choices in character interactions**: The player’s choices in conversations, actions, and emotional responses should be tied directly to how the relationship progresses. For example, a choice to comfort the character after a personal loss, to act with jealousy, or to express vulnerability can significantly influence the relationship’s trajectory.

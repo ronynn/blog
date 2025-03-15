@@ -4,9 +4,6 @@ title: TechStack
 permalink: /tech-stack/
 ---
 
-## Currently Learning actively
-- Svelte
-- Honojs
 
 ## Revising time to time
 - Javascript, Python for DSA
@@ -21,6 +18,7 @@ permalink: /tech-stack/
 ## Have used previously
 - React (Freecodecamp](https://github.com/freecodecamp-front-end)
 - Alpinejs (Nice)
+- Svelte (Demos only)
 - Typescript (outside vscode/any IDE it isn't of much help)
 - Nim (Nim to js)
 - C# (Freecodecamp, MSLearn Certificate)
