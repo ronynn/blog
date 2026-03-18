@@ -3,19 +3,6 @@ layout: default
 title: Home
 ---
 
-<section class="hero-intro">
-  <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 4rem;">
-    <div style="background: var(--accent); width: 120px; height: 120px; border-radius: 8px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
-      AVATAR
-    </div>
-    <div class="bio">
-      <p style="font-size: 1.1rem; margin: 0;">
-        <strong>I'm {{ site.author | default: "the author" }}.</strong><br>
-        This is a crisp, minimal, personal blog where I share thoughts on FOSS, gaming, and analytical overthinking.
-      </p>
-    </div>
-  </div>
-</section>
 
 <section>
   <h2 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 2rem;">Recent Posts</h2>

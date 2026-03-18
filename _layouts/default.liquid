@@ -4,158 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png">
-    <meta name="description" content="{{ site.description }}">
-
-    <script data-goatcounter="https://ronynn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"> 
-    <link rel="stylesheet" href="{{ 'milligram.css' | relative_url }}">
     
     <style>
       :root {
-        --accent: #7c3aed; /* The Ink Purple */
-        --text-main: #1f2937;
+        --accent: #7c3aed; 
+        --text-main: #111827; /* Darker for better readability */
         --text-muted: #6b7280;
         --bg-color: #ffffff;
-        --border-color: #f3f4f6;
+        --border-color: #e5e7eb;
+        --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       }
+
+      * { box-sizing: border-box; }
 
       body {
-        max-width: 900px;
+        max-width: 850px;
         margin: 0 auto;
-        padding: 0 2rem;
+        padding: 0 1.5rem;
         background: var(--bg-color);
         color: var(--text-main);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-family: var(--font-sans);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
       }
 
-      /* --- HEADER & NAV --- */
-      .site-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2rem 0;
-        border-bottom: 2px solid var(--accent); /* Thin purple line under logo section */
+      /* --- HEADER --- */
+      header.site-header {
+        padding: 4rem 0 1rem 0;
       }
 
-      .logo-group {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-      }
-
-      .logo-group h1 {
-        margin: 0;
-        font-size: 1.8rem;
-        font-weight: 800;
+      .logo-link {
+        text-decoration: none;
         color: var(--text-main);
+        transition: opacity 0.2s;
+      }
+
+      .logo-link:hover { opacity: 0.7; }
+
+      header h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+        margin: 0;
+        letter-spacing: -0.02em;
       }
 
       .tagline {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         color: var(--text-muted);
-        margin: 0;
+        margin: 0.5rem 0 0 0;
       }
 
+      /* --- NAVIGATION --- */
       nav.main-nav {
-        margin: 1.5rem 0 3rem 0;
+        margin: 2rem 0 4rem 0;
         display: flex;
-        gap: 1.5rem;
+        gap: 2rem;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 1rem;
       }
 
       nav.main-nav a {
         text-decoration: none;
-        color: var(--text-muted);
+        color: var(--text-main);
         font-weight: 600;
-        font-size: 1.1rem;
-        transition: color 0.2s;
+        font-size: 1rem;
+        position: relative;
       }
 
-      nav.main-nav a:hover {
-        color: var(--accent);
-      }
+      nav.main-nav a:hover { color: var(--accent); }
+      
+      /* Active state indicator */
+      nav.main-nav a.active { color: var(--accent); }
 
-      /* --- CONTENT AREAS --- */
+      /* --- CONTENT STYLING --- */
       main {
-        min-height: 70vh;
+        font-size: 1.1rem; /* Slightly larger base font for readability */
       }
 
-      /* Formatting for the Post List (Matches your index.md) */
+      h2, h3, h4 {
+        color: var(--text-main);
+        margin-top: 2.5rem;
+        font-weight: 800;
+      }
+
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      /* Post List Overrides (Matches your index.md) */
+      .posts-list { list-style: none; padding: 0; }
+      
       .post-item {
         display: flex;
-        gap: 2.5rem;
-        margin-bottom: 3rem;
-        list-style: none;
-      }
-
-      .post-date {
-        text-align: right;
-        min-width: 80px;
+        gap: 3rem;
+        margin-bottom: 3.5rem;
       }
 
       .post-date .day {
-        display: block;
-        font-size: 2.8rem;
+        font-size: 3rem;
         font-weight: 800;
-        line-height: 1;
-        color: var(--text-muted);
+        display: block;
+        line-height: 0.9;
+        color: #e5e7eb; /* Light grey for that "background" date feel */
       }
 
       .post-date .month-year {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+        font-weight: 600;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
         color: var(--text-muted);
+        display: block;
+        margin-top: 0.2rem;
       }
 
-      .post-info h3 {
-        margin: 0 0 0.5rem 0;
-        font-size: 1.4rem;
-      }
+      .post-info h3 { margin: 0; font-size: 1.5rem; line-height: 1.2; }
+      .post-info p { margin: 0.5rem 0 0 0; color: var(--text-muted); font-size: 1rem; }
 
-      .post-info a {
-        color: var(--accent);
-        text-decoration: none;
-      }
-
-      .post-excerpt {
-        color: var(--text-muted);
-        margin-top: 0.5rem;
-      }
-
-      /* Cleaning up Milligram defaults */
-      ul { list-style: none; padding-left: 0; }
-      ul li:before { content: ""; } /* Removed the dash from previous version */
-
+      /* Mobile adjustments */
       @media (max-width: 600px) {
         .post-item { flex-direction: column; gap: 0.5rem; }
         .post-date { text-align: left; }
-        .site-header { flex-direction: column; align-items: flex-start; }
+        header h1 { font-size: 1.8rem; }
       }
     </style>
   </head>
   
   <body>
     <header class="site-header">
-      <div class="logo-group">
+      <a href="/" class="logo-link">
         <h1>{{ site.title }}</h1>
-        <p class="tagline">{{ site.description }}</p>
-      </div>
+      </a>
+      <p class="tagline">{{ site.description }}</p>
     </header>
 
     <nav class="main-nav">
-      <a href="/">Home</a>
-    
-      <a href="/about">About</a>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/tech-stack/' | relative_url }}">Tech Stack</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
     </nav>
     
     <main>
       {{ content }}
     </main>
 
-    <footer style="margin-top: 5rem; padding: 2rem 0; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.8rem;">
-      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }} | Built with passion.</p>
+    <footer style="margin: 6rem 0 3rem 0; color: var(--text-muted); font-size: 0.9rem;">
+      <p>&copy; {{ "now" | date: "%Y" }} • {{ site.title }}</p>
     </footer>
   </body>
 </html>
