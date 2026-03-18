@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-### About This Blog:
-
-
 I have maintained a blog since 2016, but noticed that different crowds have different interests and thus keep ideas around different themes in different places. 
 
 Ronynn's blog in it's current form is dedicated to discussions around all things foss, specially the apps and games I am working on. Apart from those, I often come up with ideas to quantify mundane things to analyse so this is my place to publish those research too. Most of those mundane things focus around productivty and self improvement, as I strive to be one step better than I was before.
