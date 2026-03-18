@@ -31,8 +31,7 @@ title: Home
       <a href="{{ paginator.previous_page_path | relative_url }}" style="margin-right: 1rem;">&larr; Newer</a>
     {% endif %}
     
-    <a href="/archive" style="font-weight: bold; text-transform: uppercase; font-size: 0.8rem; color: var(--text-main);">All Posts &rarr;</a>
-
+ 
     {% if paginator and paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" style="margin-left: 1rem;">Older &rarr;</a>
     {% endif %}
