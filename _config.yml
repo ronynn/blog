@@ -1,7 +1,7 @@
 # _config.yml
 
 title: ronynn's blog
-description: "ronynn's blog on foss apps and games with multiple themes and a Vanta.js dots background."
+description: "Opinionated Analysis of tech and productivity tools."
 baseurl: "/blog"               
 
 
@@ -22,4 +22,4 @@ include:
 
 
 # Custom Variables
-default_theme: "gruvbox"   # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest
+default_theme: # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest

@@ -6,7 +6,9 @@ author: ronynn
 image: assets/images/pomodoro.jpg
 ---
 
-Time management is a skill that many of us struggle with, especially in a world filled with constant distractions and an ever-growing to-do list. Whether it's work, school, personal projects, or hobbies, the demands on our time often feel overwhelming. Like many others, I spent years feeling perpetually busy, but never quite productive. That was until I discovered the **Pomodoro Technique**—a time management method that has not only transformed the way I work but also helped me reclaim my focus, motivation, and overall well-being. In this essay, I will reflect on how the Pomodoro Technique changed my life, from improving my productivity to reducing stress, and how it helped me develop a more balanced approach to work and personal life.
+Time management is a skill that many of us struggle with, especially in a world filled with constant distractions and an ever-growing to-do list. Whether it's work, school, personal projects, or hobbies, the demands on our time often feel overwhelming. Like many others, I spent years feeling perpetually busy, but never quite productive. That was until I discovered the **Pomodoro Technique**—a time management method that has not only transformed the way I work but also helped me reclaim my focus, motivation, and overall well-being. 
+
+![Pomodoro](/assets/images/pomodoro.jpg)
 
 ---
 

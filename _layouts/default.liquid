@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
 
-/**    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-**/
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"> 
-    
+
     <style>
       :root {
         --accent: #7c3aed; 
@@ -85,7 +79,7 @@
 
       /* --- CONTENT STYLING --- */
       main {
-        font-size: 1.4rem; /* Slightly larger base font for readability */
+        font-size: 1rem; /* Slightly larger base font for readability */
       }
 
       h2, h3, h4 {
@@ -144,7 +138,7 @@
     </header>
 
     <nav class="main-nav">
-      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/' | relative_url }}">Blog</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
       <a href="{{ '/tech-stack/' | relative_url }}">Tech Stack</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
