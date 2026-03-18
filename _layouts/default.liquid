@@ -5,249 +5,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
     <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png">
-    <meta name="description" content="A blog about overthinking analytically, foss apps and video games.">
+    <meta name="description" content="{{ site.description }}">
 
     <script data-goatcounter="https://ronynn.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"> 
     <link rel="stylesheet" href="{{ 'milligram.css' | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
     
     <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
+      :root {
+        --accent: #7c3aed; /* The Ink Purple */
+        --text-main: #1f2937;
+        --text-muted: #6b7280;
+        --bg-color: #ffffff;
+        --border-color: #f3f4f6;
       }
-      
-      /* INK THEME LAYOUT: Centered max-width container instead of large percentage padding */
+
       body {
-        max-width: 800px;
+        max-width: 900px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 0 2rem;
+        background: var(--bg-color);
+        color: var(--text-main);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       }
-      
-      #vanta-bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-      }
-      
-      /* INK THEME LAYOUT: Split header (Titles left, Controls right) */
-      header {
+
+      /* --- HEADER & NAV --- */
+      .site-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap; /* Ensures it wraps cleanly on mobile */
-        margin: 2rem 0 1rem 0;
-        gap: 1rem;
+        padding: 2rem 0;
+        border-bottom: 2px solid var(--accent); /* Thin purple line under logo section */
       }
 
-      .header-titles {
-        flex: 1;
-        min-width: 250px;
-      }
-
-      .header-titles h1 {
-        margin-bottom: 0.2rem;
-      }
-
-      .header-titles p {
-        margin-bottom: 0;
-        color: var(--text, inherit);
-        opacity: 0.8;
-      }
-
-      .header-controls {
+      .logo-group {
         display: flex;
         align-items: center;
         gap: 1rem;
       }
-      
-      /* INK THEME LAYOUT: Navigation Tabs */
-      nav {
-        display: flex;
-        gap: 2rem;
-        margin-bottom: 3rem;
-        border-bottom: 1px solid var(--border, #e1e1e1);
-        padding-bottom: 1rem;
-      }
-      
-      /* Overriding your previous 2rem margin for a cleaner Ink-style nav */
-      .nav-link {
+
+      .logo-group h1 {
         margin: 0;
-        font-weight: 600;
-        text-decoration: none;
-      }
-      
-      /* Dropdown styling - Removed float and width limits so flexbox handles it */
-      #theme-selector {
-        color: var(--text);
-        background-color: var(--input-bg);
-        border: 1px solid var(--border);
-        padding: 0.8rem;
-        margin: 0; /* Reset margin */
-        width: auto;
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: var(--text-main);
       }
 
-      #toggle-vanta {
-        margin: 0; /* Reset margin */
+      .tagline {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin: 0;
       }
-      
-      /* Code block styling */
-      code {
-        background: var(--input-bg);
-        color: var(--text);
-        border: 1px solid var(--border);
-        border-radius: 0.4rem;
-        font-size: 0.9em;
-        padding: 0.2rem 0.4rem;
+
+      nav.main-nav {
+        margin: 1.5rem 0 3rem 0;
+        display: flex;
+        gap: 1.5rem;
       }
-      
-      /* Code block styling for preformatted blocks */
-      pre {
-        background: var(--input-bg);
-        color: var(--text);
-        border: 1px solid var(--border);
-        border-radius: 0.4rem;
-        padding: 1rem;
-        overflow: auto;
-        white-space: pre-wrap;
-        word-wrap: break-word;
+
+      nav.main-nav a {
+        text-decoration: none;
+        color: var(--text-muted);
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: color 0.2s;
       }
-      
-      /* Override Markdown list styling: remove default bullet and use a dash */
-      ul {
+
+      nav.main-nav a:hover {
+        color: var(--accent);
+      }
+
+      /* --- CONTENT AREAS --- */
+      main {
+        min-height: 70vh;
+      }
+
+      /* Formatting for the Post List (Matches your index.md) */
+      .post-item {
+        display: flex;
+        gap: 2.5rem;
+        margin-bottom: 3rem;
         list-style: none;
-        padding-left: 0;
       }
-      
-      ul li:before {
-        content: "- ";
-        color: var(--text);
+
+      .post-date {
+        text-align: right;
+        min-width: 80px;
       }
-      
-      /* Posts list styling */
-      .posts-list li {
-        margin-bottom: 1rem;
+
+      .post-date .day {
+        display: block;
+        font-size: 2.8rem;
+        font-weight: 800;
+        line-height: 1;
+        color: var(--text-muted);
+      }
+
+      .post-date .month-year {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+      }
+
+      .post-info h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.4rem;
+      }
+
+      .post-info a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .post-excerpt {
+        color: var(--text-muted);
+        margin-top: 0.5rem;
+      }
+
+      /* Cleaning up Milligram defaults */
+      ul { list-style: none; padding-left: 0; }
+      ul li:before { content: ""; } /* Removed the dash from previous version */
+
+      @media (max-width: 600px) {
+        .post-item { flex-direction: column; gap: 0.5rem; }
+        .post-date { text-align: left; }
+        .site-header { flex-direction: column; align-items: flex-start; }
       }
     </style>
   </head>
   
-  <body data-theme="{{ site.default_theme | default: '' }}">
-    
-    <div id="vanta-bg"></div>
-    
-    <header>
-      <div class="header-titles">
+  <body>
+    <header class="site-header">
+      <div class="logo-group">
         <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
-      </div>
-
-      <div class="header-controls">
-        <select id="theme-selector">
-          <option value="">Default</option>
-          <option value="gruvbox">Gruvbox</option>
-          <option value="monokai">Monokai</option>
-          <option value="dracula">Dracula</option>
-          <option value="nord">Nord</option>
-          <option value="solarized">Solarized</option>
-          <option value="catppuccin">Catppuccin</option>
-          <option value="tokyo-night">Tokyo Night</option>
-          <option value="everforest">Everforest</option>
-          <option value="cupcake">Cupcake</option>
-        </select>
-        
-        <button id="toggle-vanta" class="button">Toggle 3D</button>
+        <p class="tagline">{{ site.description }}</p>
       </div>
     </header>
+
+    <nav class="main-nav">
+      <a href="/">Home</a>
     
-    <nav>
-      <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
-      <a href="{{ '/blog' | relative_url }}" class="nav-link">Blog</a>
-      <a href="{{ '/about' | relative_url }}" class="nav-link">About</a>
-      </nav>
+      <a href="/about">About</a>
+    </nav>
     
     <main>
       {{ content }}
     </main>
-    
-    <script>
-      var vantaEffect;
-      var vantaOn = localStorage.getItem('vantaOn') === "true"; // Load saved state
-      var savedTheme = localStorage.getItem('selectedTheme') || '';
 
-      document.body.setAttribute('data-theme', savedTheme);
-
-      // Function to dynamically load scripts
-      function loadScript(src, callback) {
-        var script = document.createElement("script");
-        script.src = src;
-        script.async = true;
-        script.onload = callback;
-        document.body.appendChild(script);
-      }
-
-      // Function to initialize Vanta.js (only runs after Three.js is loaded)
-      function initVanta() {
-        if (vantaEffect) vantaEffect.destroy();
-        vantaEffect = VANTA.DOTS({
-          el: "#vanta-bg",
-          color: getComputedStyle(document.body).getPropertyValue('--button').trim() || 0x000000,
-          backgroundColor: getComputedStyle(document.body).getPropertyValue('--bg').trim() || 0xffffff,
-          scaleMobile: 1.00,
-          showLines: false
-        });
-      }
-
-      // Function to enable Vanta (loads scripts first)
-      function enableVanta() {
-        if (!window.THREE) {
-          loadScript("https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js", function() {
-            loadScript("https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js", function() {
-              initVanta();
-            });
-          });
-        } else {
-          initVanta();
-        }
-      }
-
-      // If Vanta was previously on, load it dynamically
-      if (vantaOn) {
-        enableVanta();
-        document.getElementById('toggle-vanta').textContent = "Toggle 3d";
-      }
-
-      // Vanta toggle button
-      document.getElementById('toggle-vanta').addEventListener('click', function() {
-        if (vantaOn) {
-          if (vantaEffect) vantaEffect.destroy();
-          vantaOn = false;
-          localStorage.setItem('vantaOn', "false");
-          this.textContent = "Toggle 3d";
-        } else {
-          enableVanta();
-          vantaOn = true;
-          localStorage.setItem('vantaOn', "true");
-          this.textContent = "Toggle 3d";
-        }
-      });
-
-      // Theme selector change event
-      document.getElementById('theme-selector').addEventListener('change', function() {
-        var selectedTheme = this.value;
-        document.body.setAttribute('data-theme', selectedTheme);
-        localStorage.setItem('selectedTheme', selectedTheme);
-
-        // Only reinitialize Vanta if it is currently active
-        if (vantaOn && window.VANTA) {
-          initVanta();
-        }
-      });
-    </script>
+    <footer style="margin-top: 5rem; padding: 2rem 0; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.8rem;">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }} | Built with passion.</p>
+    </footer>
   </body>
 </html>
