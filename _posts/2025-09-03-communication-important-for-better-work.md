@@ -11,6 +11,6 @@ Consider the consequences of such restraint. Talking less does not necessarily e
 
 A recent encounter with a sign bearing the ominous decree, “Less Talk More Work,” only served to underscore this point. While ostensibly aimed at fostering attentiveness in a scholastic setting, its implications are far-reaching. The tacit mandate to minimize discourse could inadvertently quash curiosity, stifling the very essence of intellectual inquiry.
 
-But let us not dwell solely on the shadows cast by silence. For in embracing dialogue, we uncover a wealth of untapped potential. By engaging in discourse, we not only enrich our own understanding but also foster an environment conducive to collaboration and innovation.
+But let us not dwell solely on the shadows cast by silence. For in embracing dialogue, we uncover a wealth of untapped potential. By engaging in discourse, we enrich our own understanding and foster an environment conducive to collaboration and innovation.
 
 So, let us heed the call to speak, to share, to question. Let us embrace the cacophony of voices, each one a thread in the rich tapestry of human thought. For in the symphony of conversation lies the key to unlocking our collective brilliance, propelling us ever forward on our journey of discovery.

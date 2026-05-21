@@ -4,7 +4,7 @@ title: Feedback and Playtesting are essential steps in game development
 author: ronynn
 ---
 
-In the world of game development, creating a game that resonates with players is a combination of technical expertise, artistic vision, and careful refinement. However, one of the most crucial steps in ensuring a game’s success, especially in its early stages, is the process of **feedback** and **playtesting**. These practices help developers identify pain points, gauge player reactions, and understand the gameplay experience from a player's perspective—allowing for targeted improvements that can turn a promising game into a polished, engaging product. In this essay, I will discuss the importance of feedback and playtesting, drawing from my own experience working with a team during the **Ludum Dare Game Jam**, and how these steps were integral in shaping our game into a project with commercial potential.
+In the world of game development, creating a game that resonates with players is a combination of technical expertise, artistic vision, and careful refinement. However, one of the most crucial steps in ensuring a game’s success, especially in its early stages, is the process of **feedback** and **playtesting**. These practices help developers identify pain points, gauge player reactions, and understand the gameplay experience from a player's perspective—allowing for targeted improvements that can turn a promising game into a polished, engaging product. My plan here is to discuss the importance of feedback and playtesting, drawing from my own experience working with a team during the **Ludum Dare Game Jam**, and how these steps were integral in shaping our game into a project with commercial potential.
 
 ---
 
@@ -67,12 +67,10 @@ After several rounds of playtesting, we had a much clearer vision of what our ga
 
 Through **continued feedback**, we identified new ways to market the game. Playtesters had mentioned enjoying the immersive elements of the game, particularly the atmospheric music and environmental storytelling. Based on these reactions, we decided to focus our marketing efforts on those aspects, creating trailers that showcased the game's mood and mystery.
 
-The final version of our game not only improved in terms of **user engagement** but also **retention**, with players spending more time exploring the world and solving puzzles. When we released the game on platforms like **Steam** and **itch.io**, it received positive reviews for its atmospheric storytelling, intuitive mechanics, and challenging puzzles—factors that were all influenced by the feedback and playtesting process.
+The final version of our game improved in terms of **user engagement** and **retention**, with players spending more time exploring the world and solving puzzles. When we released the game on **Steam** and **itch.io**, it received positive reviews for its atmospheric storytelling, intuitive mechanics, and challenging puzzles—factors that were all influenced by the feedback and playtesting process.
 
 ---
 
-### Conclusion
-
 In the fast-paced world of game development, **feedback and playtesting** are indispensable tools for turning a concept into a polished, engaging experience. Our team’s experience during the **Ludum Dare Game Jam** demonstrated the crucial role these practices played in shaping our game from a raw prototype into a commercially viable product. By iterating based on real-world player feedback, we were able to fine-tune the game’s mechanics, balance the difficulty, and create an immersive experience that resonated with players.
 
-Ultimately, playtesting allowed us to understand the player's perspective—helping us to solve problems before they became barriers to success. This process not only improved our game but also helped us build a deeper connection with our audience, making our game stand out in a competitive marketplace. In game development, **feedback and playtesting** are not just steps in the process; they are vital to ensuring a game’s success and longevity.
+Ultimately, playtesting allowed us to understand the player's perspective—helping us to solve problems before they became barriers to success. This process helped us build a deeper connection with our audience, making our game stand out in a competitive marketplace.

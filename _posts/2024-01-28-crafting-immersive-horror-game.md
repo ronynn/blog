@@ -49,7 +49,7 @@ A hallmark of interactive fiction is player choice, and this is where the real p
 
 ### 4. **Building a Compelling Narrative and Plot Structure**
 
-In horror, the plot often revolves around uncovering a mystery or escaping an inescapable fate. The plot should unfold in a way that keeps players engaged but also contributes to the growing sense of dread. Here are some narrative techniques to consider:
+In horror, the plot often revolves around uncovering a mystery or escaping an inescapable fate. The plot should unfold in a way that keeps players engaged and contributes to the growing sense of dread. Here are some narrative techniques to consider:
 
 - **Slow Revelation**: In a horror IF game, mysteries should unfold slowly. Avoid dumping all the information on the player at once. Instead, reveal pieces of the backstory, world-building, and character motivations over time, allowing players to piece together the truth in a way that feels earned and unnerving. This can be done through journal entries, overheard conversations, or cryptic messages.
   
@@ -71,6 +71,5 @@ Though interactive fiction is primarily text-based, sound can still play a vital
 
 Finally, as with any game, testing is crucial to understanding how your horror game is affecting players. Horror games rely heavily on player reactions, and what may be terrifying to one player may not resonate with another. Playtest your game with a wide variety of players, ideally people who are unfamiliar with the story. Pay attention to their emotional responses—are they on edge? Are they making choices that you anticipated? Are there any moments where the horror doesn’t land as effectively as you thought?
 
-### Conclusion
 
-Crafting an immersive horror interactive fiction game requires careful attention to atmosphere, player choices, pacing, and the psychological underpinnings of the narrative. It’s about creating an experience that lingers in the mind, leaving players not only afraid of what’s happening in the game but also questioning their own perceptions of reality. By employing the right techniques—building tension through language, offering meaningful choices, and slowly revealing the story—you can create a horror experience that’s as unsettling as it is unforgettable.
+Crafting an immersive horror interactive fiction game requires careful attention to atmosphere, player choices, pacing, and the psychological underpinnings of the narrative. It’s about creating an experience that lingers in the mind, leaving players afraid of what’s happening in the game while also questioning their own perceptions of reality. By employing the right techniques—building tension through language, offering meaningful choices, and slowly revealing the story—you can create a horror experience that’s as unsettling as it is unforgettable.

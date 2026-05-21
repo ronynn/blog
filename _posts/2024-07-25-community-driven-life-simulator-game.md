@@ -51,7 +51,7 @@ For the core gameplay, including the handling of random events and stat updates,
 
 ### 4. Gamifying Interactions and Motivating Players
 
-To keep players engaged, **gamification** elements will be critical. Gamification not only makes the game more fun but also encourages players to return to the game regularly and continue progressing. Here are some ideas for gamifying interactions:
+To keep players engaged, **gamification** elements will be critical. Gamification makes the game more fun and encourages players to return to the game regularly and continue progressing. Here are some ideas for gamifying interactions:
   
 - **Progression and Achievements**: Players will have multiple goals, ranging from career milestones to personal achievements. Gamification could involve unlocking achievements based on life goals, like “Own a House” or “Become a CEO.” These rewards encourage players to work toward specific milestones.
   

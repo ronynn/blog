@@ -39,7 +39,7 @@ Let's delve into a scenario where Neumorphism can pose coding problems:
 
 In the above CSS code snippet, we have a Neumorphic button style defined with a box shadow that creates the characteristic soft, raised effect. However, when the button is hovered over, we attempt to change the box shadow to create an inset effect. This transition from an outer shadow to an inset shadow can lead to a jarring visual experience for users, as the button's appearance abruptly shifts from a raised Neumorphic style to an inset one.
 
-This sudden change in shadow direction not only disrupts the visual continuity but also contradicts the intended tactile feel of Neumorphism. It highlights a key challenge in implementing Neumorphic designs seamlessly, where transitions between different states can sometimes clash with the overall aesthetic and user experience.
+This sudden change in shadow direction disrupts the visual continuity and contradicts the intended tactile feel of Neumorphism. It highlights a key challenge in implementing Neumorphic designs seamlessly, where transitions between different states can sometimes clash with the overall aesthetic and user experience.
 
 And who could forget Material, Google's brainchild, with its paper-like elements and vibrant hues, trying to be both functional and expressive. But like a complicated puzzle, it's easy to get lost in its inconsistencies.
 

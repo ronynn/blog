@@ -65,11 +65,10 @@ For instance, in *Detroit: Become Human*, players are forced to make ethical cho
 
 ### 4. **Design Considerations and Challenges**
 
-While player choice offers numerous benefits, it also introduces challenges for developers. The design of interactive fiction games must ensure that the branching narratives are not only logically sound but also provide satisfying experiences regardless of the path the player takes. Developers must create systems that allow for **meaningful choices** while avoiding the temptation of offering "false choices" where all options lead to the same outcome.
+While player choice offers numerous benefits, it also introduces challenges for developers. The design of interactive fiction games must ensure that the branching narratives are logically sound and provide satisfying experiences regardless of the path the player takes. Developers must create systems that allow for **meaningful choices** while avoiding the temptation of offering "false choices" where all options lead to the same outcome.
 
 Moreover, maintaining consistency across a branching narrative can be difficult. As player choices lead to different paths, it becomes harder to create a cohesive world where all events feel interconnected and plausible. This is why many developers opt for more **episodic structures** in their games, allowing them to focus on smaller, manageable chunks of the story that adapt to player decisions.
-
-### Conclusion
+---
 
 The impact of player choice on the narrative structure of interactive fiction games cannot be overstated. It fundamentally changes the way stories are told, offering a more immersive, personalized, and emotionally engaging experience. Through branching narratives, emotional depth, and player agency, interactive fiction games provide players with a unique opportunity to explore a world of possibilities, where every choice carries weight and consequences.
 

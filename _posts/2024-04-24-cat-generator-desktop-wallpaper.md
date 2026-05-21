@@ -10,7 +10,7 @@ As a developer with a passion for blending design aesthetics and functional user
 
 Before diving into usability, it’s important to understand the design trend I chose: **glassmorphism**. Glassmorphism is a design style that emulates the frosted glass effect, creating a translucent and blurred background with layered elements. This aesthetic can evoke a sense of depth and sophistication while maintaining a minimalist feel. It gained significant traction in UI/UX design, especially for mobile apps and web interfaces, thanks to its futuristic, "light" appearance. 
 
-For my cat-pic-fetching web app, I chose to incorporate glassmorphism to create an elegant, modern interface that not only allows users to view cat pictures but also provides a visually engaging experience that could sit comfortably as a live wallpaper. This decision was motivated by the desire to make the app not just functional, but beautiful and pleasing to use over extended periods, something that a live wallpaper demands.
+For my cat-pic-fetching web app, I chose to incorporate glassmorphism to create an elegant, modern interface that allows users to view cat pictures and provides a visually engaging experience that could sit comfortably as a live wallpaper. This decision was motivated by the desire to make the app not just functional, but beautiful and pleasing to use over extended periods, something that a live wallpaper demands.
 
 ### Initial Design and Functionality
 
@@ -52,8 +52,8 @@ After developing the app, I conducted several rounds of testing with users acros
 **User Preferences**: Many users appreciated the ability to **personalize** the app, especially the feature to control how often the images change. For those who wanted a more static wallpaper, a "freeze" option was well received, allowing them to lock in their favorite cat image for a period of time before it updates again.
 
 
-### Concluding thoughts
+---
 
 Creating a glassmorphism-inspired web app that fetches cat pictures and functions as a live wallpaper proved to be an intriguing experiment in blending aesthetics with usability. Through user testing, I learned the importance of **subtle interactions**, **personalization options**, and **performance optimization** when designing for live wallpaper use. Audience reactions ranged from excitement at the novelty of the concept to constructive feedback on improving the user interface for better accessibility and interactivity.
 
-By considering these factors, the app not only provides an enjoyable experience as a background but also demonstrates how even the simplest applications, when designed with care, can elevate the user experience and provide delightful moments throughout the day. As I continue refining the app, it is clear that there’s great potential for simple yet engaging live wallpaper applications that offer both aesthetic appeal and functional value.
+By considering these factors, the app provides an enjoyable experience as a background and also demonstrates how even the simplest applications, when designed with care, can elevate the user experience and provide delightful moments throughout the day. As I continue refining the app, it is clear that there’s great potential for simple yet engaging live wallpaper applications that offer both aesthetic appeal and functional value.

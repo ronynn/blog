@@ -26,15 +26,19 @@ permalink: /projects/
 
 ### Apps
 
-- Atmos-XR: <https://github.com/ronynn/atmos-xr>
-  - An android livewallpaper that shows the weather and simulation of actual clouds above you in webgl, unfortunately I can't get it to run as android livewallpaper is not supporting webgl.
-  - Hence it's listed as the first app here coz I need your help to get it to work, please look at the code. I understand that this could just be made in native or in c sdl to get around the limitation, but I believe the limitation is not real as other webgl based livewallpapers exist.
+- wttr-Dash: <https://github.com/ronynn/wttr-dash>
+  - An offshoot of ronynn weather, it tells your weather info using wttr api and uses some rss2json news api to tell you the news of the day, all in one dashboard. ダッシュボード
+
+- Kisoku 気息: <https://github.com/ronynn/kisoku>
+  - A breathing exercise app to calm the mind 
 
 - Shintaku <https://github.com/ronynn/shintaku>
   - An oracle which considers your circadian rhythm and syllabus to assign you what book to study next
+  - Shintaku 神託 means oracle or a divine prophecy
 
 - Karui <https://github.com/ronynn/karui>
   - Foss todolist app, available for download from the IzzyOnDroid Repo, F-droid repo, OpenApk and more places.
+  - Karui 軽い means something which is light and not heavy
 
 - Ronynn Weather: <https://ronynn.github.io/weather>
   - Weather app with glassmorphism aesthetics fetching data from wttr api, which to me seems more accurate than others.
@@ -43,6 +47,11 @@ permalink: /projects/
 
 - Cat-gen: <https://ronynn.github.io/cat-gen>
   - Generate cat images, to be turned into a live wallpaper app for android.
+
+
+- Atmos-XR: <https://github.com/ronynn/atmos-xr>
+  - An android livewallpaper that shows the weather and simulation of actual clouds above you in webgl, unfortunately I can't get it to run as android livewallpaper is not supporting webgl.
+  - Hence it's listed here coz I need your help to get it to work, please look at the code. I understand that this could just be made in native or in c sdl to get around the limitation, but I believe the limitation is not real as other webgl based livewallpapers exist.
 
 - Freecodecamp Assignments: <https://ronynn.github.io/Front-End-Projects>
     - Made as part of freecodecamp certification, and then made a few more. I was obsessed with neomorphism at the time, probably should make some fixes in the projects. Here are some good ones:-
@@ -60,7 +69,7 @@ permalink: /projects/
 - LifeSim2k (ongoing)
   - For Ifcomp 2026, the code gives me headache, this is like a foss bitlife clone with mod support.
 
-- Interview Interview <https://ronynn.github.io/interview-interview/>
+- Interview Interview: <https://ronynn.github.io/interview-interview/>
   - For SpringThing 2025, If you just have time to play one of my games, then play this one.
 
 - [House that Whispers](https://dobryncat.itch.io/the-house-that-whispers) 
@@ -146,4 +155,5 @@ Always working on cool new stuff like:
     - Experience a rain simulation using WebGL technology. 
 
 - Bash Committer <https://ronynn.github.io/hardwork> : Obsessing over daily commits hinders learning.
+
 - Old Blog on Poetry and Story pieces: <https://mysteriousadventuresblog.wordpress.com>

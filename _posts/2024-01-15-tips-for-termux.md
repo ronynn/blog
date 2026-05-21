@@ -204,6 +204,6 @@ Since Termux can access a wide range of device resources, it’s essential to ta
 - **Avoid running commands as root** unless absolutely necessary (especially on rooted devices).
 - **Use strong passwords** for any services you expose through Termux.
 
-## Conclusion
+---
 
 Termux is a powerful tool that brings a Linux-like environment to your Android device, offering a wide range of possibilities from development to automation. By using the tips outlined above, you can harness the full potential of Termux, customize your environment, install essential tools, and create a versatile mobile workspace for development or system administration. Whether you're looking to automate tasks, write code, or manage servers on the go, Termux provides a robust platform for all of this and more. With the right tools and a bit of practice, Termux can become an indispensable part of your Android toolkit.

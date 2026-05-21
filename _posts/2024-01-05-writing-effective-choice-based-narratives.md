@@ -16,7 +16,7 @@ By creating meaningful choices, the writer ensures that the audience feels inves
 
 ## 2. **Character Agency and Development**
 
-In a traditional narrative, characters are primarily developed through the actions of the author. However, in a choice-based narrative, the agency of the player or reader becomes central to character development. The choices made by the player not only affect the plot but also shape the protagonist's personality, relationships, and moral compass.
+In a traditional narrative, characters are primarily developed through the actions of the author. However, in a choice-based narrative, the agency of the player or reader becomes central to character development. The choices made by the player affect the plot and shape the protagonist's personality, relationships, and moral compass.
 
 For this reason, writers must carefully construct characters who are flexible enough to respond to different choices, yet remain grounded in their core values and motivations. Well-developed characters should have depth and complexity, and their reactions to choices should feel authentic. If the choices the player makes lead to wildly inconsistent behavior, or if the protagonist feels like they have no agency, the narrative can quickly break down, leaving the audience disengaged.
 
@@ -24,7 +24,7 @@ To maintain character consistency, writers often employ a "character arc" model 
 
 ## 3. **Branching Storylines and Consequences**
 
-A major challenge in writing choice-based narratives is creating branching storylines that feel coherent and well-structured. With each decision made by the player, the narrative can take on a different path, leading to multiple outcomes, endings, and variations. This branching structure can offer immense replayability but also presents the risk of fragmentation, where the story feels disjointed or lacks cohesion.
+A major challenge in writing choice-based narratives is creating branching storylines that feel coherent and well-structured. With each decision made by the player, the narrative can take on a different path, leading to multiple outcomes, endings, and variations. This branching structure can offer immense replayability and presents the risk of fragmentation, where the story feels disjointed or lacks cohesion.
 
 To avoid this, writers should carefully plan out the branching paths in advance. Each decision should be part of a larger narrative framework, and the consequences of those decisions should be both logical and satisfying. Instead of creating arbitrary branches that lead to wildly different storylines with no connection, writers should focus on developing multiple variations of the same central story. These variations can manifest as changes in character relationships, the state of the world, or the player's own moral alignment, but they should all contribute to the same overarching narrative goals.
 
@@ -44,7 +44,7 @@ Another key aspect of player experience is the pacing of the narrative. Choice-b
 
 The culmination of a choice-based narrative is often marked by multiple possible endings, each reflecting the consequences of the player's choices. These endings should be more than just a "good" or "bad" outcome; they should be nuanced, offering a range of resolutions that align with the moral and thematic journey the player has undertaken.
 
-An important aspect of crafting endings in choice-based narratives is the idea of reflection. A satisfying conclusion should not only tie up plot threads but also allow players to reflect on their decisions and the moral implications of their actions. By providing a resolution that feels earned and meaningful, writers can create a lasting emotional impact, encouraging players to think about the choices they made and how those choices shaped the world they interacted with.
+An important aspect of crafting endings in choice-based narratives is the idea of reflection. A satisfying conclusion should tie up plot threads, allow players to reflect on their decisions and the moral implications of their actions. By providing a resolution that feels earned and meaningful, writers can create a lasting emotional impact, encouraging players to think about the choices they made and how those choices shaped the world they interacted with.
 
 Moreover, the endings should feel like natural conclusions to the arcs that have been developed throughout the narrative. The decisions made along the way should have led to these conclusions in ways that feel logical and consistent, yet surprising enough to leave a lasting impression.
 

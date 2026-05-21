@@ -13,7 +13,9 @@ The posts from here on would probably be a lot longer on here. I also plan to go
 
 ![Pomotroid](https://github.com/Splode/pomotroid) is a pomodoro tauri app with the designs you see made in svelte. I have myself been itching to make something of this sort with rhe design system I made for my app [Karui](https://github.com/ronynn/karui), but more recently I am playing with the idea to limit myself to pages instead of the 25 or 50  minutes time blocks that pomodoro presents, as I have prepared in my own new foss app  [Shintaku](https://github.com/ronynn/shintaku),
 
-Hyperdroid Launcher on playstore which replicates a windows 11 screen has a feature to run a desktop version of chrome, it is useful on very specific situations when an app or form you need to work on demands to be opened on a desktop browser, but you need work done on it urgently and don't have a pc around. I have been trying to setup termux-desktop and even tried userland to get running on my android 15 device but it wont run properly
+
+
+Hyperdroid Launcher on playstore which replicates a windows 11 screen has a feature to run a desktop version of chrome, it is useful on very specific situations when an app or form you need to work on demands to be opened on a desktop browser, but you need work done on it urgently and don't have a pc around. I have been trying to setup termux-desktop and even tried userland to get running on my android 16 device but it wont run properly, I remember using debian no-root on my tablet years ago and ran chromium on it, it was pleasant, but not available in my phone now, it was last updated in 2020. Fun note that same developer pelya ported openttd to android too.
 
 
 

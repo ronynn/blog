@@ -7,7 +7,7 @@ Collaborative storytelling in the context of game design is a powerful way to bu
 
 ### 1. Setting Clear Guidelines for Submissions
 
-One of the most important aspects of collaborative storytelling is establishing clear, well-communicated guidelines for the types of events that can be submitted. These guidelines not only help to ensure the quality and relevance of community contributions but also provide a framework that helps prevent submissions from derailing the narrative or being out of sync with the established tone and mechanics of the game.
+One of the most important aspects of collaborative storytelling is establishing clear, well-communicated guidelines for the types of events that can be submitted. These guidelines help to ensure the quality and relevance of community contributions and provide a framework that helps prevent submissions from derailing the narrative or being out of sync with the established tone and mechanics of the game.
 
 [!Cassette](
 ![](https://ronynn.github.io/blog/assets/images/cassette.jpg)
