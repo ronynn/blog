@@ -1,9 +1,7 @@
 ---
 layout: post
 title: How pomodoro changed my life
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/pomodoro.jpg
 ---
 
 (Update: instead of pomodoro I now consult an oracle to tell me what to finish, this way I'm not bound by a time limit and feel nore relaxed. See my android app  [Shintaku](https://github.com/ronynn/shintaku))
@@ -12,7 +10,7 @@ Time management is a skill that many of us struggle with, especially in a world 
 
 Like many others, I spent years feeling perpetually busy, but never quite productive. That was until I discovered the **Pomodoro Technique**—a time management method that has not only transformed the way I work but also helped me reclaim my focus, motivation, and overall well-being. 
 
-![Pomodoro](assets/images/pomodoro.jpg)
+![Pomodoro](/assets/images/pomodoro.jpg)
 
 ---
 

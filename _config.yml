@@ -2,19 +2,19 @@
 
 title: ronynn's blog
 description: "Opinionated Analysis of tech and productivity tools."
-baseurl: "/blog/"               
+baseurl: "/blog"               
 
 
 url: "https://ronynn.github.io"  
 
 
 markdown: kramdown
-theme: minima   
+theme: # minima   
 
 
-paginate: 
-paginate_path: #"/page:num"
-plugins:
+# paginate: 
+# paginate_path: #"/page:num"
+# plugins:
   #- jekyll-feed
   
 include:
@@ -22,4 +22,4 @@ include:
 
 
 # Custom Variables
-default_theme: # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest
+# default_theme: # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest

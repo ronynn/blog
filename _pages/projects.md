@@ -39,6 +39,9 @@ A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honoj
 
 - Atmos-XR (ongoing)
 
+- Shintaku <<https://github.com/ronynn/shintaku>
+  - An oracle which considers your circadian rhythm and syllabus to assign you what book to study next
+
 - Karui <https://github.com/ronynn/karui>
   - Available to download from the IzzyOnDroid Repo
 
