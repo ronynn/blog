@@ -101,6 +101,6 @@ game.start_game()
 - **Math Challenges**: The player must solve math problems within the context of a story, with each correct answer advancing the plot. This creates an educational framework that is contextualized within the game.
 - **Retry Mechanism**: If the player fails, they are given a chance to retry, reinforcing the concept of trial and error without penalizing the player too harshly. This feature is crucial for learning games, as it encourages resilience and persistence.
 
-### Conclusion
+---
 
 Educational interactive fiction games provide a unique opportunity to engage students with content in a meaningful, immersive way. Through my experiences building and observing student interactions with these games, I’ve learned that they are an excellent tool for fostering critical thinking, problem-solving, and engagement. By blending storytelling with educational content, IF games provide students with a rich, interactive learning experience that traditional methods often lack. As the examples and observations show, integrating choice-based narratives with learning objectives makes education more enjoyable and helps students retain and apply knowledge more effectively. With the right balance of narrative and educational content, interactive fiction games can become a cornerstone of modern educational methods.

@@ -103,8 +103,8 @@ From this chart, we can visually assess whether there is a noticeable correlatio
 
 While the experiment was self-reported and small-scale, the trend shown in the data supports existing scientific claims that proper hydration can improve cognitive function, focus, and overall productivity.
 
-**Conclusion**
 
-This simple experiment and accompanying **Chart.js** graph demonstrate how drinking water may correlate with an increase in productivity, especially in cognitive tasks such as programming and reading non-fiction. Hydration appears to improve mental clarity and focus, resulting in higher performance in activities requiring sustained concentration. Of course, this experiment is based on my own data and would need to be validated with a larger sample size and more rigorous controls. However, the trend suggests that staying hydrated can indeed help improve my productivity—whether I am writing code, reading, or engaging in other mentally demanding tasks.
+
+Drinking water may correlate with an increase in productivity, especially in cognitive tasks such as programming and reading non-fiction. Hydration appears to improve mental clarity and focus, resulting in higher performance in activities requiring sustained concentration. Of course, this experiment is based on my own data and would need to be validated with a larger sample size and more rigorous controls. However, the trend suggests that staying hydrated can indeed help improve my productivity—whether I am writing code, reading, or engaging in other mentally demanding tasks.
 
 By incorporating such habits into our daily routines, it is possible to enhance cognitive efficiency, leading to more productive workdays and improved overall well-being.

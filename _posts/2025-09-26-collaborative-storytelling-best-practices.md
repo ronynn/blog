@@ -82,6 +82,6 @@ Publicly credit contributors for their ideas by listing them in the game’s cre
 #### **Feedback Loops:**
 Incorporate a **feedback loop** where users can rate or comment on events submitted by others. This creates a sense of community and allows contributors to see how their ideas resonate with players. It also helps identify high-quality submissions that could become integral to the game’s evolving narrative.
 
-### Conclusion
+---
 
 Building a web-based life simulator game through community-driven collaborative storytelling is a fascinating challenge that combines creativity, design, and the technical aspects of game development. By establishing clear guidelines, creating accessible submission tools, and managing contributions thoughtfully, the game can grow into a dynamic, ever-changing world that reflects the collective imagination of its community. Most importantly, ensuring that contributors feel heard and valued is essential to maintaining an engaged and motivated user base, which in turn leads to a richer, more diverse game. When done well, this collaborative process can turn a simple game into a shared experience, where every player and contributor has a hand in shaping the narrative.

@@ -48,6 +48,6 @@ An important aspect of crafting endings in choice-based narratives is the idea o
 
 Moreover, the endings should feel like natural conclusions to the arcs that have been developed throughout the narrative. The decisions made along the way should have led to these conclusions in ways that feel logical and consistent, yet surprising enough to leave a lasting impression.
 
-## Conclusion
+---
 
 Writing an effective choice-based narrative is a complex but rewarding endeavor that requires careful attention to the design of choices, character development, branching storylines, and player engagement. By ensuring that choices are meaningful and impactful, characters remain consistent yet flexible, and the overall narrative maintains cohesion, writers can create immersive and engaging stories that offer players genuine agency. As interactive storytelling continues to evolve, the key to its success lies in the balance between player choice and narrative structure, creating an experience where every decision feels like it truly matters. Through this dynamic interplay, choice-based narratives can provide a unique and deeply personal form of storytelling that resonates with audiences long after the experience ends.

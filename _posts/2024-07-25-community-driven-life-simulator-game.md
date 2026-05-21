@@ -67,6 +67,6 @@ A key element of this project is its **community-driven** nature. By allowing pl
 - **Event Submission Portal**: Community members can submit new events, missions, or even career paths, which are then reviewed and added to the game (github pull requests could be easier alternative).
 - **Localization Support**: Add-ons for specific regions or countries can be developed by players or content creators from those regions, allowing for a truly global experience.
 
-### Conclusion: The Path Forward
+### The Path Forward
 
 The proposal for this community-driven, lightweight, and expandable life simulator game offers an exciting new approach to text-based games. By focusing on accessibility, simplicity, and the ability to grow over time through community contributions, this game can become a platform that reflects the richness of human experience across the globe. Whether it’s through year progression, stat management, or random events, the game can provide a dynamic and evolving narrative that keeps players engaged and invested in their virtual lives. By incorporating gamification elements, community submissions, and careful technical design, this life simulator will be an open, evolving project that engages players from all walks of life, all around the world.

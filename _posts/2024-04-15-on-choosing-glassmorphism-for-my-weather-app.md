@@ -39,7 +39,7 @@ Our weather-checking ritual mostly revolved around preparing for **the future**,
 
 This insight led me to refine my design choices further. The app’s interface wouldn’t be bogged down with excessive data about the current weather. Instead, the app would highlight **forecasted weather**, with a focus on **upcoming rain**, while maintaining an interface that was **minimal**, **elegant**, and easy to interact with on a mobile device.
 
-## Conclusion: The Right Balance Between Functionality and Aesthetics
+## The Right Balance Between Functionality and Aesthetics
 
 Ultimately, the decision to choose **glassmorphism** for my weather app was not just about following a design trend—it was about creating an experience that felt intuitive, efficient, and in tune with how people actually use weather apps in real life. It allowed me to present the most useful information—forecasted weather, particularly rain—in an aesthetically pleasing and functional way. By focusing on simplicity and minimalism, glassmorphism helped create a seamless mobile experience that prioritized user needs without overwhelming the interface.
 

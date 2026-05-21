@@ -51,8 +51,8 @@ When debugging Nim-to-JS transpiled code, I ran into several issues related to *
 
 This lack of clear error mapping meant that I had to spend a significant amount of time troubleshooting issues, trying to understand whether the problem originated from my Nim code or the transpiled JavaScript. Often, it was a combination of both, making debugging a tedious and frustrating process.
 
-## Conclusion
+---
 
-In conclusion, while using **nim-to-js** to build a web project offered an exciting opportunity to explore Nim in the realm of web development, it came with its own set of unique challenges. From the **lack of documentation and community support** to **interoperability issues** with JavaScript frameworks and performance problems, the experience was far more complex than anticipated. The tooling and build process for compiling Nim to JavaScript also proved cumbersome, and the limited library support made integrating common web features difficult.
+While using **nim-to-js** to build a web project offered an exciting opportunity to explore Nim in the realm of web development, it came with its own set of unique challenges. From the **lack of documentation and community support** to **interoperability issues** with JavaScript frameworks and performance problems, the experience was far more complex than anticipated. The tooling and build process for compiling Nim to JavaScript also proved cumbersome, and the limited library support made integrating common web features difficult.
 
 Despite these struggles, using `nim-to-js` also provided valuable insights into the challenges of working with less mainstream web development tools. While Nim is an incredibly powerful and expressive language, it still requires significant adaptation to be used effectively in a modern web context. In the future, I would consider using Nim for certain web-based projects, but with a more thorough understanding of its limitations and a willingness to work around the gaps in the ecosystem. For now, though, I would recommend developers to proceed cautiously when considering **nim-to-js** for web development, as the toolchain and ecosystem remain a work in progress.

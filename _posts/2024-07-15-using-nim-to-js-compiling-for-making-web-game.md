@@ -127,6 +127,6 @@ Although Nim generally produces more optimized JavaScript than other higher-leve
 
 While Nim is a powerful language, it has a smaller community compared to JavaScript, which means fewer resources and libraries for web game development. However, Nim’s ecosystem is growing, and developers can contribute by building new libraries or leveraging existing JavaScript libraries via Nim’s FFI (Foreign Function Interface).
 
-## Conclusion
+---
 
 Using Nim to create web games by compiling to JavaScript offers a compelling alternative to more traditional web game development languages. Nim provides high performance, clean syntax, and low-level control, making it well-suited for building efficient and feature-rich web games. The process of compiling Nim code to JavaScript is straightforward, and with the ability to interact seamlessly with the browser’s APIs, developers can create highly interactive and engaging web games. While there are some challenges, such as debugging and performance considerations, the benefits of using Nim for web game development make it an exciting option for developers looking for a balance of speed, expressiveness, and power.
