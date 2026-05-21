@@ -129,6 +129,8 @@ permalink: /projects/
 
 ### Experiments
 
+- [Cambro](https://github.com/ronynn/cambro): Camera app that has gameboy, polaroid and fujifilm filter effect that I made as an experiment.
+
 - Graphics Experiments: <https://ronynn.github.io/Graphics-Experiments>
   - Code for stuff in p5js, TIC80, and glsl. Here are some q5js examples:
   - Tic-tac-toe:
