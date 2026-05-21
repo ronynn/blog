@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Time organisation for studying
-categories: [Notetaking, Organisation, Learning]
 author: ronynn
-image: assets/images/schedule.jpg
-tags: [featured]
 ---
 
 "Lost time is never found again," so said Ben Franklin, and he was onto something. Time, it's a slippery thing, slipping through our fingers like water through a sieve. We're always chasing after it, trying to catch up, but somehow it's never quite within reach. We fill our days with noise and distraction, the important things getting lost in the shuffle.
@@ -16,7 +13,7 @@ There's something special about the crack of dawn, when the world's still half-a
 Save the night for reflection: When the sun sets and the world grows quiet, that's when it's time to take stock of the day's victories and defeats. It's not about cramming in last-minute studying or trying to learn something new. No, sir, it's about revisiting what you've already learned, reinforcing those neural pathways, and tucking them in nice and snug for the night. Anything else is just asking for trouble, a surefire recipe for a restless sleep and a groggy morning after.
 
 
-![](assets/images/writing.jpg)
+![](https://ronynn.github.io/blog/assets/images/writing.jpg)
 
 In the inundation of information that characterizes our modern existence, we find ourselves awash in a sea of facts and figures, each vying for our attention. It's akin to a buffet spread before us, yet not all are worthy of consumption. So why squander our intellectual appetite on trivialities that fail to nourish our minds or advance our pursuits? Let us adopt a discerning palate, focusing solely on the substantive material that aligns with our objectives and aspirations. It's not about amassing encyclopedic knowledge; rather, it's about cultivating a depth of understanding in the areas that truly matter.
 
@@ -31,6 +28,8 @@ And as for those precious lunch breaks? Well, let's just say they're a welcome r
 Exercise, that invigorating pursuit which invigorates both body and mind, need not be confined to a single, exhaustive session. Instead, let us integrate it seamlessly into our daily routine, punctuating periods of activity with moments of physical exertion. Whether it be a brief stretch, a leisurely stroll, or a spontaneous burst of movement, let us embrace the rhythmic cadence of our bodies, ensuring a constant flow of vitality and energy.
 
 Ever find yourself ensnared in the stagnation of a familiar environment, your thoughts mired in complacency? It may be time to seek refuge in a new locale, to disrupt the status quo and awaken dormant creativity. Who knows what inspiration may be unearthed amidst unfamiliar surroundings? Let us venture forth, casting off the shackles of routine in pursuit of newfound perspective and insight.
+
+![](https://ronynn.github.io/blog/assets/images/schedule.jpg)
 
 Procrastination, that insidious foe which saps our productivity and sows the seeds of inertia, demands a resolute countermeasure. Break down tasks into manageable segments, commencing with the simplest and gradually scaling upwards. Set a timer, if necessary, and plunge headlong into the fray. Once momentum is gained, the barriers of procrastination crumble in the face of determined action.
 

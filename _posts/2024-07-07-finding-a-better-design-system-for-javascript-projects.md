@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Picking the best design system for my apps
-categories: [Design, Javascript]
-author: ronynn
-image: assets/images/laptopcalc.jpg
-tags: [featured]
 ---
 
 "Design is not just what it looks like and feels like. Design is how it works,” said Steve Jobs, and he was onto something.
@@ -64,6 +60,9 @@ In navigating the realm of Material Design, one must tread carefully to address 
 So, here I am, stuck in this existential crisis of web design, wondering if there's a light at the end of this CSS tunnel. Do I stick with the status quo, or do I dare to venture into uncharted territory and create my own design system?
 
 As I ponder this conundrum, I can't help but think of Leonardo da Vinci's timeless words: "Simplicity is the ultimate sophistication." But let's be real, simplicity can sometimes be mistaken for mediocrity. After all, who wants an app that's as exciting as watching paint dry?
+
+
+![](https://ronynn.github.io/blog/assets/images/laptopcalc.jpg)
 
 So, I've decided to spice things up a bit by dabbling in the art of glassmorphism. Picture this: glossy blur effects, vibrant colors, and a hint of mystery - it's like peeking through a frosted window on a snowy day.
 

@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Setting up tweego in termux for developing Interactive Fiction Games on Android
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/php.jpg
 ---
 In the first part of this tutorial series, I'll guide you through setting up Tweego in Termux, a powerful tool for crafting immersive stories on your Android device using twine storyformats with just a text editor outside the twine editor.
 

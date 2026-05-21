@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Critique to my struggles using nim-to-js for a web project
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/retrocamera.jpg
 ---
 I had previously written an article on my struggles using nim-to-js compilation for web projects but reading it some time later felt the need to critique it as it wasn't clear about some things.
 

@@ -1,9 +1,7 @@
 ---
 layout: post
 title: A personal experience involving Git in Game Developemnt
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/kanban.jpg
 ---
 
 Participating in a game jam is always an exhilarating and chaotic experience. As a game developer, the pressure to create something playable within a short period, usually 48-72 hours, can be both thrilling and stressful. This year, I had the opportunity to work with a talented group of designers, developers, and artists. In the midst of the high-energy rush of prototyping and refining our game, one tool stood out: Git. In this essay, I’d like to reflect on how we set up Git for our game jam project, the challenges we faced, and how the tool ultimately proved indispensable despite some design-specific hurdles.
@@ -21,6 +19,8 @@ Despite the seemingly simple setup, we quickly discovered that managing a game p
 ### Challenges Faced: Game Assets and Design-Specific Issues
 
 One of the first challenges we encountered was managing large binary files, particularly game assets like sprites, textures, and sound effects. Unlike text files, binary files (such as images and audio files) cannot be diffed or merged, which means that if two team members make changes to the same asset at the same time, you risk overwriting each other’s work or losing important updates. 
+
+![](https://ronynn.github.io/blog/assets/images/kanban.jpg)
 
 Our initial approach was to commit binary assets regularly, but we quickly realized this led to large repository sizes and slow performance when pulling or pushing updates. As the number of commits accumulated, the repository became unwieldy, and GitHub’s file size limitations became an issue. In particular, we ran into trouble when attempting to manage large sound files, which had to be frequently updated as we iterated on the game’s audio design.
 

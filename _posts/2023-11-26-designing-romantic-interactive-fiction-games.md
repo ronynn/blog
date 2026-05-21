@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Designing romantic interactive fiction games through crafting emotional depth and player agency
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/cassette.jpg
 ---
 
 Romantic interactive fiction (IF) games have emerged as a unique genre in the interactive storytelling landscape, blending narrative-driven gameplay with emotional depth. These games allow players to experience, shape, and explore relationships in ways that are not only immersive but also deeply personal. Unlike traditional romance novels or films, interactive fiction places players at the helm of their own love stories, offering them the opportunity to influence outcomes, make decisions, and interact with characters in meaningful ways.
@@ -27,7 +25,7 @@ In romantic IF games, characters are everything. A romance is only as strong as 
 
 There are several character archetypes commonly used in romance stories, but the challenge in interactive fiction is to subvert these archetypes and avoid clichés. Rather than relying on surface-level traits, romantic interests should have deep emotional complexity. The goal is to create characters that players can relate to or desire, characters who evoke empathy or challenge the player’s perceptions of love and relationships.
 
-[!cassette](assets/images/cassette.jpg)
+[!cassette](https://ronynn.github.io/blog/assets/images/cassette.jpg)
 
 Some character-building strategies include:
 - **Developing complex backstories**: The characters’ past experiences, traumas, and triumphs shape how they approach relationships. These backstories should be slowly revealed through dialogue choices and interactions, allowing the player to understand the romantic interest more deeply as the story progresses.

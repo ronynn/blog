@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Markdown is better than powerpoint for making presentations
-categories: [Notetaking, Organisation]
-author: ronynn
-image: assets/images/markdown.jpg
-tags: [featured]
 ---
 
 We live in an age of information and communication. We are constantly required to share our ideas and knowledge with others, in various forms and formats. One of the most common and popular forms of communication is the presentation. A presentation is a way of delivering information to an audience, using visual aids and verbal explanations.
@@ -39,6 +35,8 @@ _ Here are some points that summarize the negatives of powerpoint slides: _
 
 -   Therefore, powerpoint slides should not be the default or mandatory format for presentations. They should be an optional choice for individuals to decide how to make a presentation that best suits their needs and preferences. There are other formats and tools that can offer more advantages and benefits for presentations, such as markdown.
 
+
+![](https://ronynn.github.io/blog/assets/images/markdown.jpg)
 ---
 
 _ Markdown has many advantages over slides as a format for presentations. Here are some of them: _

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Correlating drinking water to increase in productivity
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/tablepen.jpg
 ---
 
 It is widely known that staying hydrated is crucial for overall health, but emerging research also suggests that water intake can significantly affect cognitive performance and productivity. In many cases, even slight dehydration can impair brain function, reducing focus, memory, and mental clarity. This essay explores the potential correlation between drinking water and increased productivity, particularly in activities requiring concentration, such as programming, reading, and problem-solving tasks. Through a simple experiment, we can measure the effects of hydration on productivity by tracking both water consumption and performance in specific tasks. I will also include a data visualization using **Chart.js** to graphically represent the relationship between hydration and my productivity levels.

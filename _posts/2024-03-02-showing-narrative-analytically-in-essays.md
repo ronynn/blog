@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Showing the narrative analytically in essays
-categories: Writing
 author: ronynn
-image: assets/images/writing.jpg
 ---
 
 Essay writing is a complex and multifaceted skill that demands both clarity and creativity from the writer. Different writers may adopt different strategies to organize and present their ideas, depending on the purpose, audience, and topic of their essays. Some writers may opt for an analytical mode that employs bullet points to outline their arguments and convey them in a concise and logical manner.
@@ -17,6 +15,8 @@ Oscar Wilde was an Irish writer who excelled in various literary genres, such as
 ## Examples of Wilde’s Essays
 
 One example of Wilde’s essays that illustrates his combined writing style is “The Decay of Lying”, published in 1889 as part of his collection Intentions. In this essay, Wilde defends lying as an art form and criticizes realism as a dull and unimaginative mode of representation. He presents his argument in the form of a dialogue between two characters, Vivian and Cyril. Vivian is the spokesperson for Wilde’s views, while Cyril plays the role of a skeptical interlocutor. The dialogue is divided into four sections, each with a subtitle that summarizes the main point of the section. These subtitles act as bullet points that guide the reader through the essay’s structure and logic. For example, the first section is titled “Art begins with Abstract Decoration”. Within each section, Wilde uses narrative mode to illustrate his points with examples from literature, history, art, and his own experience. He also uses descriptive language, rhetorical questions, metaphors, similes, and humor to make his essay more engaging and appealing.
+
+![](https://ronynn.github.io/blog/assets/images/writing.jpg)
 
 Another example of Wilde’s essays that shows his combined writing style is “The Soul of Man under Socialism”, published in 1891. In this essay, Wilde advocates socialism as a means of liberating individuality and creativity from the oppression of capitalism and morality. He presents his argument in a more conventional format than “The Decay of Lying”, with an introduction, body paragraphs, and a conclusion. However, he still uses analytical mode to organize his ideas and highlight his main claims. For instance, he begins his introduction with a bold statement: “The chief advantage that would result from the establishment of Socialism is undoubtedly the fact that Socialism would relieve us from that sordid necessity of living for others which in the present condition of things presses so hardly upon almost everybody”. He then proceeds to explain what he means by living for others and why it is detrimental to human development. In the body paragraphs, he uses narrative mode to support his argument with examples from literature, philosophy, religion, politics, and society. He also uses poetic language, imagery, irony, paradoxes, and anecdotes to make his essay more expressive and persuasive.
 

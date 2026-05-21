@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Building a Community driven life simulator game
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/cassette.jpg
 ---
 
  Imagine a game where players can experience the ebb and flow of life—progressing through years, making decisions, facing random events, and seeing the effects of their choices on their virtual lives. At its core, the game will be **lightweight by design**, with a simple yet compelling structure that makes it easy for everyone, whether a hardcore gamer or a casual player, to jump in and enjoy.

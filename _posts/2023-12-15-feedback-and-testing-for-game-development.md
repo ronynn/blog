@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Feedback and Playtesting are essential steps in game development
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/markdown.jpg
 ---
 
 In the world of game development, creating a game that resonates with players is a combination of technical expertise, artistic vision, and careful refinement. However, one of the most crucial steps in ensuring a game’s success, especially in its early stages, is the process of **feedback** and **playtesting**. These practices help developers identify pain points, gauge player reactions, and understand the gameplay experience from a player's perspective—allowing for targeted improvements that can turn a promising game into a polished, engaging product. In this essay, I will discuss the importance of feedback and playtesting, drawing from my own experience working with a team during the **Ludum Dare Game Jam**, and how these steps were integral in shaping our game into a project with commercial potential.
@@ -26,6 +24,9 @@ In the world of game development, creating a game that resonates with players is
 3. **Identifying Bugs and Issues**: Even with extensive internal testing, bugs can slip through the cracks. Playtesting is an invaluable tool for uncovering technical problems that may not have been apparent during development, such as performance issues, crashes, or glitches.
    
 4. **Improving Balance**: Whether it's the difficulty curve, pacing, or the power dynamics between characters, playtesting helps developers assess whether the game is balanced. Too easy or too difficult, and players lose interest. Getting this balance right is crucial for player retention.
+
+
+![](https://ronynn.github.io/blog/assets/images/markdown.jpg)
 
 ---
 

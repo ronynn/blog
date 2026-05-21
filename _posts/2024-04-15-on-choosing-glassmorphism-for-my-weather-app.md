@@ -1,9 +1,6 @@
 ---
 layout: post
 title: On choosing glassmorphism for my weather app
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/click.jpg
 ---
 
 In the world of app development, the design of an interface can often make or break the user experience. The journey toward creating a unique and visually appealing app interface is shaped by both user needs and the aesthetics of the design itself. When I set out to design a weather app, I wasn’t just thinking about the typical features that every weather app offers. Instead, I focused on the nuances of how people actually use weather apps in their day-to-day lives. This journey led me to explore **glassmorphism**, a modern design trend that blends transparency and blurred effects, to create a sleek and visually engaging interface for my weather app.
@@ -25,6 +22,8 @@ Once I started considering the user experience of my weather app, I wanted it to
 Glassmorphism, which gained significant popularity in 2020, is characterized by **frosted glass** or **blurred glass** elements, giving an app a sense of depth and lightness. This style draws on the idea of translucency and layering, which can create a sophisticated and futuristic feel without overwhelming the user with clutter. With glassmorphism, the background remains visible through the interface elements, while still providing enough contrast to ensure readability. It allows the content to pop, while maintaining a light, ethereal quality that is perfect for a weather app—an app that needs to convey information quickly but also feel approachable and visually appealing.
 
 This is where glassmorphism truly excelled for my weather app. The main idea was to create an interface that felt **refreshing**, much like the rain showers we were obsessively tracking. The frosted-glass effect would give the app a clean, minimalist look while ensuring the background elements—like the weather map or hourly forecasts—remained visible, providing users with a sense of connection to the surrounding environment, even while viewing detailed weather data.
+
+![](https://ronynn.github.io/blog/assets/images/click.jpg)
 
 ## Creating a Simple, Focused Experience
 

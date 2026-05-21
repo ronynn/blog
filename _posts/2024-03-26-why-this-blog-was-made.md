@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Why this blog was made
-categories: [Game Development, Philosophy, Writing]
-image: assets/images/markdown.jpg
-author: ronynn
 ---
 
 Dear reader, as you navigate the digital halls of my sanctuary, you may wonder how this sanctum of over-analysis came to be. The story of its creation is a winding path, replete with false starts, epiphanies, and an unyielding passion for self-discovery.

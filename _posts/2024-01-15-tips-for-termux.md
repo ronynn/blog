@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Tips for using termux
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/cassette.jpg
 ---
 
 Termux is a powerful and versatile terminal emulator for Android devices that brings the full power of a Linux environment to your mobile device. Whether you're a seasoned developer, a system administrator, or a hobbyist looking to explore Linux-based tools on your phone or tablet, Termux provides a robust environment for running scripts, managing packages, and performing a wide variety of tasks, all from the comfort of your Android device. While Termux offers many useful features, it can be overwhelming for new users. In this essay, we will explore several tips and best practices to help you get the most out of Termux, ranging from installation and package management to productivity tools and automation.

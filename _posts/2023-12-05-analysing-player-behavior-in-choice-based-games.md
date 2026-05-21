@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Analyzing player behavior in choice based games
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/oldcomputer.jpg
 ---
 
 
@@ -18,6 +16,8 @@ Player behavior in choice-based games offers valuable insights into how players 
 - **Optimize Game Design**: Identify bottlenecks, poorly received choices, or paths that players commonly abandon.
   
 These insights can be obtained using a combination of data analytics and player modeling.
+
+![](https://ronynn.github.io/blog/assets/images/oldcomputer.jpg)
 
 ### 2. Data Collection for Player Behavior
 

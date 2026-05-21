@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Writing effective choice based narratives 
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/tablepen.jpg
 ---
 
 In recent years, choice-based narratives have become a prominent form of storytelling in various media, particularly in video games, interactive fiction, and digital media. These narratives engage audiences by offering them agency—an opportunity to shape the direction of the story. Choice-based storytelling emphasizes player or reader interaction, allowing them to make decisions that influence the plot, characters, and world around them. However, crafting an effective choice-based narrative requires careful planning, a deep understanding of character development, and a structured approach to storytelling. This essay explores the principles of writing an effective choice-based narrative, including the importance of meaningful choices, character agency, branching storylines, and player experience.
@@ -31,6 +29,8 @@ A major challenge in writing choice-based narratives is creating branching story
 To avoid this, writers should carefully plan out the branching paths in advance. Each decision should be part of a larger narrative framework, and the consequences of those decisions should be both logical and satisfying. Instead of creating arbitrary branches that lead to wildly different storylines with no connection, writers should focus on developing multiple variations of the same central story. These variations can manifest as changes in character relationships, the state of the world, or the player's own moral alignment, but they should all contribute to the same overarching narrative goals.
 
 One effective approach to branching is to focus on key moments in the story that offer the player meaningful choices, while still maintaining a unified thematic core. This way, the player’s choices influence the story’s emotional and thematic beats, but the narrative itself remains cohesive and focused. For instance, a decision to ally with one faction over another could shift the political landscape, but the underlying theme of loyalty, betrayal, or redemption should remain consistent across all possible branches.
+
+![](https://ronynn.github.io/blog/assets/images/tablepen.jpg)
 
 ## 4. **Player Experience and Immersion**
 

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Ruby might be better than python for new learners
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/type.jpg
 ---
 
 When it comes to teaching programming to beginners, there are two languages that frequently dominate the conversation: **Ruby** and **Python**. Both are high-level, interpreted languages known for their relatively easy learning curves and large supportive communities. However, when we dive deeper into the nuances of learning, there are several reasons why **Ruby** may offer distinct advantages over **Python** for new learners. From its elegant syntax that encourages thinking differently to its emphasis on terseness and full-stack development readiness, Ruby presents an excellent environment for cultivating fundamental programming skills. Furthermore, some aspects of Python—such as its heavy reliance on indentation and the overabundance of ready-made solutions—might hinder a beginner’s ability to think critically and build strong problem-solving skills. 

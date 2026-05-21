@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Communication is more important than silent hardwork
-categories: [Writing, Learning]
-author: ronynn
-image: assets/images/markdown.jpg
-tags: [featured]
 ---
 
 There's a certain elegance to silence, a kind of wisdom that speaks volumes without uttering a single word. Dionysius of Halicarnassus knew this well when he implored, “Let thy speech be better than silence, or be silent.” A noble sentiment, indeed, but like many pearls of wisdom cast into the vast sea of the internet, its surface allure can belie deeper truths.

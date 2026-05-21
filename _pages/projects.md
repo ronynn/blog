@@ -6,9 +6,9 @@ permalink: /projects/
 
 ### Links to all my projects:-
 
-- Homepage <https://ronynn.github.io/> : 3d animation of a virtual globe, my place in the internet, made with vantajs and threejs.
-- Ronynn' Blog <https://ronynn.github.io/blog> : Using data I try to figure out how to avoid wasting my time.
-- Resume <https://ronynn.github.io/portfolio> :Have a nice looking interface to access my repos and look at past projects
+- [Homepage](https://ronynn.github.io) : 3d animation of a virtual globe, my place in the internet, made with vantajs and threejs.
+- [Ronynn' Blog](https://ronynn.github.io/blog) : Using data I try to figure out how to avoid wasting my time.
+- [Resume](https://resume.github.io/?ronynn) :Have a nice looking interface to access my repos and look at past projects
 
 <hr>
 
@@ -16,34 +16,25 @@ permalink: /projects/
 
 - Github: <https://github.com/ronynn>
 - Youtube: <https://m.youtube.com/@overlyanalytic>
-- Itch io: <https://dobryncat.itch.io>
-- Ldjam: <https://ldjam.com/users/dobryn>
-- Intfiction: <https://intfiction.org/u/r01nx/summary>
-- Bluesky: <https://bsky.app/profile/overlyanalytic.bsky.social>
+- Itch io: <https://dobryncat.itch.io> : A Marketplace for indiegames
+- [Ldjam](https://ldjam.com/users/dobryn) : Popular gamejam that used to be twice a year, Notch created Minecraft originally for this game jam.
+- [Intfiction](https://intfiction.org/u/r01nx/summary): Forum for interactive fiction writers.
+- [Bluesky](https://bsky.app/profile/overlyanalytic.bsky.social)
 
-<hr>
-
-### Amayori Labs
-A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honojs
-
-- Homepage: <https://ronynn.github.io/amayorilabs>
-- Amayori Sleep Tracker
-- Breath Timer
-- Pomodoro Timer
-- Binaural Beats
-- Minesweeper Sleep
 
 <hr>
 
 ### Apps
 
-- Atmos-XR (ongoing)
+- Atmos-XR: <https://github.com/ronynn/atmos-xr>
+  - An android livewallpaper that shows the weather and simulation of actual clouds above you in webgl, unfortunately I can't get it to run as android livewallpaper is not supporting webgl.
+  - Hence it's listed as the first app here coz I need your help to get it to work, please look at the code. I understand that this could just be made in native or in c sdl to get around the limitation, but I believe the limitation is not real as other webgl based livewallpapers exist.
 
-- Shintaku <<https://github.com/ronynn/shintaku>
+- Shintaku <https://github.com/ronynn/shintaku>
   - An oracle which considers your circadian rhythm and syllabus to assign you what book to study next
 
 - Karui <https://github.com/ronynn/karui>
-  - Available to download from the IzzyOnDroid Repo
+  - Foss todolist app, available for download from the IzzyOnDroid Repo, F-droid repo, OpenApk and more places.
 
 - Ronynn Weather: <https://ronynn.github.io/weather>
   - Weather app with glassmorphism aesthetics fetching data from wttr api, which to me seems more accurate than others.
@@ -66,14 +57,14 @@ A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honoj
 
 ### Games
 
-- Foggy Restart (ongoing)
-  - For Ifcomp 2025
+- LifeSim2k (ongoing)
+  - For Ifcomp 2026, the code gives me headache, this is like a foss bitlife clone with mod support.
 
-- Interview Interview (ongoing)
-  - For SpringThing 2025
+- Interview Interview <https://ronynn.github.io/interview-interview/>
+  - For SpringThing 2025, If you just have time to play one of my games, then play this one.
 
-- House that Whispers: 
-  - Parser based interactive fiction in javascript
+- [House that Whispers](https://dobryncat.itch.io/the-house-that-whispers) 
+  - Parser based interactive fiction in javascript, horror.
 
 - Potato Peace: <https://ronynn.github.io/potato-peace>
   - Visual Novel made with typescript, set in a world where humans and sentient potatoes live together, made for spring thing 2024.
@@ -99,13 +90,10 @@ A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honoj
   - A strand type game :) made in javascript using the ramus framework and sugarcube-2, compiled with tweego, for Spring Thing 2022
   - Comments: [ifdb](https://ifdb.org/viewgame?id=5801jaqmu56aateu)
 
-- Unstable Vampire: <https://dobryncat.itch.io/type>
+- [Unstable Vampire](https://dobryncat.itch.io/type)
   - A typing game where you type run and dodge to escape a vampire chasing you, very tough.
   - Comments: [itch-io](https://itch.io/jam/devtober-2021/rate/1221110),
     [ldjam](https://ldjam.com/events/ludum-dare/49/type-unstable-vampire)
-
-- Rent officers: <https://dobryncat.itch.io/rent-officers>
-    - I'd say the idea was good, perhaps I'll sit with it and improve it as I wanted to.
 
 - Gamejam Tycoon: <https://dobryncat.itch.io/gamejam-tycoon>
   - How long can you survive in your game jamming career.
@@ -118,8 +106,6 @@ A startup ocussing on sleep inducing foss mobile apps. Tech Stack: Svelte, Honoj
 - Catch That Kitty: <https://ronynn.github.io/Game-Jam-Submissions/CatchThatKitty.html>
   - Go on a mission to retrieve a stolen kitty, and treasure.
   - Comments: [ifdb](https://ifdb.org/viewgame?id=allpmsmp8dsj3bh0)
-
-- Pebbles Beneath: <https://dobryncat.itch.io/pebbles-beneath>
 
 - Intergalactic Chat Simulator: [Play here](https://ronynn.github.io/Game-Jam-Submissions/Intergalactic-Chat-Simulator.html)
     - A drama about relationships and goals in life.

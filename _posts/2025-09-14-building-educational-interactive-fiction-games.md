@@ -1,9 +1,6 @@
 ---
 layout: post
 title: On building educational interactive fiction games 
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/oldcomp.jpg
 ---
 
 Interactive fiction (IF) games, where players make decisions that shape the narrative, are a powerful tool for creating engaging and educational experiences. As someone who has developed several educational interactive fiction games, I’ve had the privilege of seeing firsthand how this genre can enhance learning. These games not only entertain but also provide opportunities for students to engage in active learning, critical thinking, and problem-solving. Through my experience, I have come to understand the unique benefits and challenges of building educational IF games, and how they can be crafted to maximize their educational value.
@@ -25,6 +22,9 @@ Building educational IF games requires a balance between providing meaningful ed
 1. **Incorporate Active Learning**: Rather than simply presenting facts, educational IF games should encourage players to engage with the material. This can include activities like solving puzzles, making moral decisions, or navigating complex scenarios that require the application of knowledge.
 
 2. **Create Contextualized Learning**: Place educational content within a relevant narrative context. For example, rather than teaching grammar rules in isolation, use a mystery story where players must communicate with characters using the target language, applying grammar and vocabulary in context.
+
+
+![](https://ronynn.github.io/blog/assets/images/oldcomp.jpg)
 
 3. **Give Meaning to Player Choices**: The player’s decisions should influence the outcome of the game. This reinforces the concept that learning is a process with consequences and rewards. In a math-based game, for instance, an incorrect calculation might lead to a temporary setback in the story, but the player can retry with new knowledge to move forward.
 

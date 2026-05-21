@@ -14,8 +14,8 @@ theme: # minima
 
 # paginate: 
 # paginate_path: #"/page:num"
-# plugins:
-  #- jekyll-feed
+ plugins:
+  - jekyll-feed
   
 include:
   - _pages

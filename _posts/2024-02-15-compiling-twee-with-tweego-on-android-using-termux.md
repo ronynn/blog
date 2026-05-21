@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Tutorial for compiling twee file on tweego using termux on android
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/php.jpg
 ---
 
 In the second part of our tutorial we will get to a playable demo HTML interactive fiction game file.

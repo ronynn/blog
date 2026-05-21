@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Keeping an online portfolio
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/kanban.jpg
 ---
 
 

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Struggles I faced using nim-to-js for a web project
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/camera.jpg
 ---
 
 As a programmer constantly on the lookout for new and innovative ways to develop web applications, I decided to explore using **Nim**—a statically typed, compiled programming language—alongside the `nim-to-js` transpiler to build a web project. Nim is known for its expressive syntax, high performance, and versatility, but it isn't as widely used for web development as more mainstream languages like JavaScript or Python. The **nim-to-js** compiler allows you to convert Nim code into JavaScript, which opens up exciting possibilities for leveraging Nim’s strengths in a web environment.

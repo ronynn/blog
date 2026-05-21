@@ -21,4 +21,6 @@ For in the words of Wilde, “To live is the rarest thing in the world. Most peo
 
 For updates specific to the apps you can follow the github releases feed linked in the respective readme.md files. 
 
+My favourite post here: <https://ronynn.github.io/blog/2024/03/12/doomsday-programmer)
+
 

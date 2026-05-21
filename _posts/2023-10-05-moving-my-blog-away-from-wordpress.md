@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Moving my blog away from wordpress.com
-categories: [Organising, Writing, Chart]
-tags: [featured]
-image: https://ronynn.github.io/assets/images/wordpress.jpg
 author: ronynn
 ---
 
@@ -14,6 +11,8 @@ My tale begins with an earnest venture into the digital landscape, armed with no
 When I first stepped into the world of WordPress.com, it was with the innocence and enthusiasm of a novice writer. My inaugural project was a work of fiction—a mystery plot that unfolded over eight tantalizing chapters. Each post was a piece of a puzzle, a breadcrumb leading my readers through a labyrinth of intrigue and suspense. The platform provided me with a ready-made audience, an array of themes to dress my words, and an intuitive interface that made the act of publishing a delight.
 
 From the shadows of mystery fiction, I wandered into the sunlit fields of poetry. Here, I dabbled in verse, experimenting with rhythm and rhyme, exploring the bounds of metaphor and meter. WordPress.com was a faithful companion in this artistic endeavor, offering me the tools to share my lyrical musings with the world. The thrill of seeing my thoughts, my very essence, published for all to see was a heady experience.
+
+![](https://ronynn.github.io/blog/assets/images/wordpress.jpg)
 
 ### The Strain of Growth
 

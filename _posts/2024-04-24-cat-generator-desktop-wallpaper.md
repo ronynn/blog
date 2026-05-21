@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Would you use a desktop wallpaper which is a cat generator
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/cat.jpg
+
 ---
 
 As a developer with a passion for blending design aesthetics and functional user experiences, I recently embarked on creating a web app that leverages the **glassmorphism** design trend. The app’s primary function is simple: fetch and display random cat pictures from an API with the press of a button. However, beyond its simple premise, my goal was to explore how the app could transcend its role as a mere novelty and become a viable **live wallpaper** for both mobile phones and desktop computers. In this essay, I will walk through the thought process behind the app’s design, usability considerations, and the reactions I hoped to receive from the audience. The core objective is to determine how effectively the app could function as a live wallpaper, considering elements like user interaction, performance, and the overall experience.
@@ -23,6 +21,9 @@ At its core, the app operates by fetching a new cat picture from a public API (s
 2. **Performance Considerations**: Live wallpapers are typically expected to consume as little system resources as possible. While the app doesn’t do anything computationally intensive (just fetching images from the API), the key challenge here was ensuring that the app doesn’t slow down the performance of the device, particularly when used as a background on mobile phones or desktops. I made sure that the image-fetching process was optimized: using caching to avoid redundant API calls and implementing lazy loading for images.
 
 3. **Subtle Animations**: Another important aspect of the design was integrating **subtle animations** that wouldn’t distract from the overall aesthetic but would still provide a sense of life to the wallpaper. I added a soft fade-in effect for new images, ensuring that the transition between pictures felt smooth and didn’t jolt the user. This was crucial because a live wallpaper needs to feel fluid and continuous, rather than abruptly changing with every new image fetch.
+
+
+![](https://ronynn.github.io/blog/assets/images/cat.jpg)
 
 4. **Screen Adaptability**: Given the variation in screen sizes, especially between mobile phones and desktops, I had to design the wallpaper to be adaptable. For desktop screens, the image would need to scale appropriately, while on mobile devices, I needed to ensure the wallpaper didn’t consume too much battery power or significantly impact performance.
 

@@ -1,15 +1,11 @@
 ---
 layout: post
 title: A big limitation in understanding data sets is that we think with the hypothesis first
-categories: [Organising, Chart]
-tags: [sticky]
-image: assets/images/zsh.jpg
-author: ronynn
 ---
 
 Being a thinker isn't just about having a brain; it's about flexing those observational muscles and soaking up knowledge like a sponge in a library. Thinkers, the good ones at least, have seen some stuff and learned a thing or two. And based on all that observation and learning, they cook up a hypothesis. But hold your horses, what's the deal with this "careful observation is the same thing as data" spiel?
 
-![zsh](/assets/images/zsh.jpg)
+![zsh](https://ronynn.github.io/blog/assets/images/zsh.jpg)
 
 Sure, you can drown yourself in data, but be prepared to swim in a sea of confusion and manipulation. Trusting data alone is like navigating a ship without a compass; you'll likely end up lost at sea. Because let's face it, data isn't some unbiased oracle of truth. It's influenced by its sources, collection methods, and the shiny tools used to process it. And don't even get me started on how data can be molded and twisted to fit a particular narrative or agenda.
 

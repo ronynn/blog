@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Impact of player choice in narrative structure of interactive fiction games
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/type.jpg
 ---
 
 Interactive fiction (IF) games, also known as narrative-driven games, have revolutionized the way stories are told and experienced. Unlike traditional linear narratives, interactive fiction puts the player in the driver's seat, allowing them to influence the direction and outcome of the story through choices and actions. This level of agency transforms the narrative structure, making it more dynamic, responsive, and personalized. As a result, interactive fiction has become a unique medium that blends traditional storytelling with interactive elements, offering a deeper, more immersive experience. In this essay, we will explore how player choice impacts the narrative structure of interactive fiction games, examining its effects on player engagement, storytelling complexity, emotional depth, and overall game design.
@@ -39,6 +37,9 @@ For example, in *The Witcher 3: Wild Hunt*, the decisions the player makes as Ge
 The complexity introduced by branching narratives can also affect the way writers and developers approach storytelling. To accommodate multiple player choices, interactive fiction often requires **non-linear narrative structures**, where the story is designed to accommodate various potential scenarios. This non-linearity can result in highly complex plots, where every action, no matter how small, can set off a chain of events.
 
 This complexity also challenges writers to ensure that all narrative branches feel cohesive and consistent, which is a considerable feat in game design. For example, if a player chooses to ally with one faction over another in a game, the writer must ensure that the plot remains logical, and the player’s choices do not disrupt the flow of the narrative. Additionally, developers must make sure that all choices feel meaningful and lead to consequences, rather than offering the player a feeling of arbitrary decision-making.
+
+
+![](https://ronynn.github.io/blog/assets/images/type.jpg)
 
 ---
 

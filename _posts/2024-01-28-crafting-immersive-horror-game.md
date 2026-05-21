@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Crafting a immersive horror interactive fiction
-categories: [Writing, Game Development]
 author: ronynn
-image: assets/images/markdown.jpg
 ---
 
 Interactive fiction (IF) has long been a powerful medium for storytelling, enabling players to become deeply immersed in narratives through the choices they make. When paired with the horror genre, interactive fiction can amplify the sense of fear and unease, drawing players into a chilling world where their decisions carry weight and consequences. Crafting an immersive horror interactive fiction game is an art that blends atmosphere, narrative depth, pacing, and player agency. In this essay, I will guide you through the essential elements and steps involved in creating an interactive horror fiction game that keeps players on the edge of their seats.
@@ -35,6 +33,8 @@ A sentence like "You hear a door creaking in the distance, but when you look, th
 A hallmark of interactive fiction is player choice, and this is where the real power of the medium lies. In a horror IF game, your choices need to matter in ways that amplify the fear and heighten the player’s sense of agency. However, unlike other genres, horror often thrives on a sense of helplessness, so you need to strike a balance between meaningful choices and unavoidable terror. Here are some tips for crafting choices that heighten immersion and dread:
 
 - **Moral Dilemmas and Consequences**: Horror often works best when choices are morally ambiguous. For example, you might have a choice between saving a character who may or may not survive or running away to save yourself. The consequences of these choices should be far-reaching and affect the narrative in a meaningful way. A player should feel the weight of their decisions, particularly if the horror of the game escalates because of them.
+
+![](https://ronynn.github.io/blog/assets/images/cassette.jpg)
   
 - **Tension Between Action and Inaction**: Some of the scariest moments in horror are born not from making the wrong decision, but from failing to act at all. Offer players moments where inaction is just as terrifying as any action they might take. For example, waiting too long to investigate a sound could trigger something horrific.
 

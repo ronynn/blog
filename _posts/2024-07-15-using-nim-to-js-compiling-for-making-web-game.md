@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Using nim-to-js compiling to make a web game
-categories: [Writing, Game Development]
-author: ronynn
-image: assets/images/oldcam.jpg
 ---
 
 The web gaming landscape has evolved significantly over the past decade, with an increasing number of developers exploring innovative tools and programming languages to create engaging experiences. One such language gaining traction for web development is **Nim**. Nim is a statically typed, compiled systems programming language known for its simplicity, speed, and expressiveness. While it has traditionally been used for creating desktop applications and server-side programs, Nim’s ability to compile to JavaScript (JS) opens up new possibilities for building performant and feature-rich web games. This essay explores how to use Nim-to-JS compiling to make a web game, detailing the advantages of using Nim, the process of compiling to JavaScript, and practical considerations for game development.
