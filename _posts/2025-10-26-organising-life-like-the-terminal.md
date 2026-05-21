@@ -2,7 +2,6 @@
 layout: post
 title: Organising life like I organise my bashrc file
 categories: [Design, Philosophy]
-image: https://ronynn.github.io/assets/images/zsh.jpg
 author: ronynn
 ---
 
@@ -15,6 +14,8 @@ The desk, a faithful witness to countless hours of toil, often becomes a battleg
 In the realm of digital clutter, the computer’s hard drive, much like the physical desk, accumulates a mélange of files, folders, and fragments of bygone projects. In an ideal world, each project would have its dedicated space, neatly partitioned to prevent overlap. However, most of us are constrained by limited disk space and the more mundane realities of modern life. Thus, files become intermingled, creating a digital labyrinth that can be daunting to navigate.
 
 To address this digital disarray, one ingenious solution I’ve found is embedded in something as unassuming as a `bashrc` file. Yes, you read that right—a simple configuration file used by the Unix shell. For those unacquainted, the `bashrc` file is where you can set environment variables, customize your shell prompt, and, importantly, create shortcuts to frequently used directories.
+
+![zsh](https://ronynn.github.io/blog/assets/images/zsh.jpg)
 
 By keeping a mental map of my disk space in this unpretentious file, I managed to streamline my return to old projects. Each time I embarked on a new endeavor, I’d update my `bashrc` with paths to critical folders, shortcuts to tools, and notes on what each directory contained. When the time came to revisit an old project, this file became my map, guiding me swiftly through the cluttered digital landscape.
 

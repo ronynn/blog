@@ -25,7 +25,7 @@ title: Home
       </li>
     {% endfor %}
   </ul>
-
+<!--
   <nav class="pagination" style="display: flex; justify-content: flex-end; margin-top: 3rem;">
     {% if paginator and paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" style="margin-right: 1rem;">&larr; Newer</a>
@@ -37,6 +37,8 @@ title: Home
     {% endif %}
   </nav>
 </section>
+
+-->
 
 <section style="margin-top: 4rem; text-align: center;">
   <hr style="border: 0; border-top: 1px solid var(--border-color); margin-bottom: 2rem;" />

@@ -6,7 +6,11 @@ author: ronynn
 image: assets/images/pomodoro.jpg
 ---
 
-Time management is a skill that many of us struggle with, especially in a world filled with constant distractions and an ever-growing to-do list. Whether it's work, school, personal projects, or hobbies, the demands on our time often feel overwhelming. Like many others, I spent years feeling perpetually busy, but never quite productive. That was until I discovered the **Pomodoro Technique**—a time management method that has not only transformed the way I work but also helped me reclaim my focus, motivation, and overall well-being. 
+(Update: instead of pomodoro I now consult an oracle to tell me what to finish, this way I'm not bound by a time limit and feel nore relaxed. See my android app  [Shintaku](https://github.com/ronynn/shintaku))
+
+Time management is a skill that many of us struggle with, especially in a world filled with constant distractions and an ever-growing to-do list. Whether it's work, school, personal projects, or hobbies, the demands on our time often feel overwhelming. 
+
+Like many others, I spent years feeling perpetually busy, but never quite productive. That was until I discovered the **Pomodoro Technique**—a time management method that has not only transformed the way I work but also helped me reclaim my focus, motivation, and overall well-being. 
 
 ![Pomodoro](assets/images/pomodoro.jpg)
 
@@ -14,7 +18,7 @@ Time management is a skill that many of us struggle with, especially in a world 
 
 ### What is the Pomodoro Technique?
 
-Before diving into how the technique changed my life, it’s important to understand what the Pomodoro Technique is. Developed by **Francesco Cirillo** in the late 1980s, the Pomodoro Technique is a time management method designed to improve focus and productivity by breaking work into intervals, traditionally lasting **25 minutes**, separated by short breaks. Each interval is called a "Pomodoro" (Italian for "tomato"), named after the tomato-shaped kitchen timer Cirillo used when creating the technique.
+Developed by **Francesco Cirillo** in the late 1980s, the Pomodoro Technique is a time management method designed to improve focus and productivity by breaking work into intervals, traditionally lasting **25 minutes**, separated by short breaks. Each interval is called a "Pomodoro" (Italian for "tomato"), named after the tomato-shaped kitchen timer Cirillo used when creating the technique.
 
 The core structure of the Pomodoro Technique is as follows:
 1. **Work for 25 minutes** (this is one Pomodoro).
@@ -77,7 +81,7 @@ I no longer felt like work was **bleeding into my personal time**. The clear bou
 
 ---
 
-### Conclusion: A Life Transformed
+### A Life Transformed
 
 The Pomodoro Technique didn’t just change my productivity; it changed my relationship with work and time. By giving me a simple yet powerful framework for managing my tasks, Pomodoro helped me reclaim my focus, reduce stress, and build momentum on long-term projects. It taught me the value of **working with intention**, of breaking tasks into smaller, manageable chunks, and of taking time to rest and recharge.
 

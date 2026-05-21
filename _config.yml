@@ -2,7 +2,7 @@
 
 title: ronynn's blog
 description: "Opinionated Analysis of tech and productivity tools."
-baseurl: "/blog"               
+baseurl: "/blog/"               
 
 
 url: "https://ronynn.github.io"  
@@ -12,10 +12,10 @@ markdown: kramdown
 theme: minima   
 
 
-paginate: 5
-paginate_path: "/page:num"
+paginate: 
+paginate_path: #"/page:num"
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   
 include:
   - _pages
