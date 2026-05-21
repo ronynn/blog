@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Organising life like I organise my bashrc file
-categories: [Design, Philosophy]
 author: ronynn
 ---
 
