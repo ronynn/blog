@@ -10,7 +10,7 @@ Time management is a skill that many of us struggle with, especially in a world 
 
 Like many others, I spent years feeling perpetually busy, but never quite productive. That was until I discovered the **Pomodoro Technique**—a time management method that has not only transformed the way I work but also helped me reclaim my focus, motivation, and overall well-being. 
 
-![Pomodoro](/assets/images/pomodoro.jpg)
+![Pomodoro](https://ronynn.github.io/blog/assets/images/pomodoro.jpg)
 
 ---
 
