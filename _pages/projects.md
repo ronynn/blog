@@ -14,9 +14,9 @@ permalink: /projects/
 
 ### Socials:
 
-- Github: <https://github.com/ronynn>
-- Youtube: <https://m.youtube.com/@overlyanalytic>
-- Itch io: <https://dobryncat.itch.io> : A Marketplace for indiegames
+- [Github](https://github.com/ronynn): Repository for all my apps and games
+- [Youtube](https://m.youtube.com/@overlyanalytic): video essays on technial stuff and discussions over my games
+- [Itch io](https://dobryncat.itch.io) : A Marketplace for indiegames
 - [Ldjam](https://ldjam.com/users/dobryn) : Popular gamejam that used to be twice a year, Notch created Minecraft originally for this game jam.
 - [Intfiction](https://intfiction.org/u/r01nx/summary): Forum for interactive fiction writers.
 - [Bluesky](https://bsky.app/profile/overlyanalytic.bsky.social)
@@ -57,10 +57,10 @@ permalink: /projects/
     - Made as part of freecodecamp certification, and then made a few more. I was obsessed with neomorphism at the time, probably should make some fixes in the projects. Here are some good ones:-
   - Svelte remakes:
     - Lyrics Search:
-        <https://ronynn.github.io/Front-End-Projects/Lyrics-Search/index.html>
+        <https://ronynn.github.io/freecodecamp-front-end/Lyrics-Search/index.html>
     - Meal Lookup:
-        <https://ronynn.github.io/Front-End-Projects/Meal-Lookup/index.html>
-      - Works well sometimes.
+        <https://ronynn.github.io/freecodecamp-front-end/Meal-Lookup/index.html>
+      - Works well sometimes depending on the api and time of the day
 
 <hr>
 
@@ -68,6 +68,8 @@ permalink: /projects/
 
 - LifeSim2k (ongoing)
   - For Ifcomp 2026, the code gives me headache, this is like a foss bitlife clone with mod support.
+
+- [Glass flappy bird](https://ronynn.github.io/prototypes/flap5.html): Flappy bird clone with glassmorphism design ui, just a prototype.
 
 - Interview Interview: <https://ronynn.github.io/interview-interview/>
   - For SpringThing 2025, If you just have time to play one of my games, then play this one.
@@ -112,17 +114,17 @@ permalink: /projects/
   - A neo-noir comedy that takes place in my old neighbourhood, a parser game blended into a retro GUI using TIC80, made for Ifcomp 2021.
   - Comments: [ifdb](https://ifdb.org/viewgame?id=qy37x4gjpzarqsil)
 
-- Catch That Kitty: <https://ronynn.github.io/Game-Jam-Submissions/CatchThatKitty.html>
+- Catch That Kitty: <https://ronynn.github.io/Game-Jam-Submissions/catch.html>
   - Go on a mission to retrieve a stolen kitty, and treasure.
   - Comments: [ifdb](https://ifdb.org/viewgame?id=allpmsmp8dsj3bh0)
 
-- Intergalactic Chat Simulator: [Play here](https://ronynn.github.io/Game-Jam-Submissions/Intergalactic-Chat-Simulator.html)
+- Intergalactic Chat Simulator: [Play here](https://ronynn.github.io/Game-Jam-Submissions/igcs.html)
     - A drama about relationships and goals in life.
 
 - Dawn: [Play here](https://ronynn.github.io/Game-Jam-Submissions/Dawn.html)
     - A post-apocalyptic survival demo.
 
-- Nimble Brass: [Play here](https://ronynn.github.io/Game-Jam-Submissions/Nimble-Brass.html)
+- Nimble Brass: [Play here](https://ronynn.github.io/Game-Jam-Submissions/Nimble.html)
   - A millionare simulator, but actually my first interactive fiction piece where you play as a character who suddenly turned rich.
 
 <hr>
@@ -134,15 +136,15 @@ permalink: /projects/
 - Graphics Experiments: <https://ronynn.github.io/Graphics-Experiments>
   - Code for stuff in p5js, TIC80, and glsl. Here are some q5js examples:
   - Tic-tac-toe:
-        <https://ronynn.github.io/Graphics-Experiments/q5/tic-tac-toe.html>
+        <https://ronynn.github.io/graphics-experiments/q5/tic-tac-toe.html>
   - Bubble Sort algorithm animated:
-        <https://ronynn.github.io/Graphics-Experiments/q5/bubble-sort.html>
+        <https://ronynn.github.io/graphics-experiments/q5/bubble-sort.html>
   - Quick Sort algorithm animated:
-        <https://ronynn.github.io/Graphics-Experiments/q5/quick-sort.html>
+        <https://ronynn.github.io/graphics-experiments/q5/quick-sort.html>
   - Fireworks:
-        <https://ronynn.github.io/Graphics-Experiments/q5/fireworks.html>
+        <https://ronynn.github.io/graphics-experiments/q5/fireworks.html>
   - Starfield (from Daniel Shiffman's tutorial):
-        <https://ronynn.github.io/Graphics-Experiments/q5/starfield.html>
+        <https://ronynn.github.io/graphics-experiments/q5/starfield.html>
 
 - Prototypes: <https://ronynn.github.io/prototypes>
 Always working on cool new stuff like:
