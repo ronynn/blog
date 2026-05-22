@@ -26,7 +26,7 @@ permalink: /projects/
 
 ### Apps
 
-- wttr-Dash: <https://github.com/ronynn/wttr-dash>
+- wttr-Dash: <https://github.com/ronynn/dash>
   - An offshoot of ronynn weather, it tells your weather info using wttr api and uses some rss2json news api to tell you the news of the day, all in one dashboard. ダッシュボード
 
 - Kisoku 気息: <https://github.com/ronynn/kisoku>

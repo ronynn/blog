@@ -27,6 +27,8 @@ Future plans that I am rejecting for now
 
 [These people](https://en.wikipedia.org/wiki/Hundred_Rabbits) are kinda my inspiration too regarding this.
 
+Canvasjs is much faster alternative to chartjs.
+
 Hyperdroid Launcher on playstore which replicates a windows 11 screen has a feature to run a desktop version of chrome, it is useful on very specific situations when an app or form you need to work on demands to be opened on a desktop browser, but you need work done on it urgently and don't have a pc around. I have been trying to setup termux-desktop and even tried userland to get running on my android 16 device but it wont run properly, I remember using debian no-root on my tablet years ago and ran chromium on it, it was pleasant, but not available in my phone now, it was last updated in 2020. Fun note that same developer pelya ported openttd to android too.
 
 
