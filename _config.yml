@@ -9,17 +9,24 @@ url: "https://ronynn.github.io"
 
 
 markdown: kramdown
-theme: # minima   
+kramdown:
+  syntax_highlighter: rouge
+# theme: # minima   
 
 
 # paginate: 
 # paginate_path: #"/page:num"
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
   
 include:
   - _pages
 
+
+timezone: UTC 
+permalink: /:year/:month/:day/:title/ 
 
 # Custom Variables
 # default_theme: # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest

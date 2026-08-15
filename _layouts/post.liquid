@@ -6,16 +6,32 @@ layout: default
 <article>
   <h2>{{ page.title }}</h2>
   <p>{{ page.date | date: "%B %d, %Y" }}</p>
+  {% assign words = page.content | number_of_words %}
+  {% assign minutes = words | divided_by: 180 %}
+  {% if minutes < 1 %}1 min read{% else %}{{ minutes }} min read{% endif %}
   {{ content }}
 <!-- 
     {% for tag in page.tags %}
       <a href="{{ '/tags/' | append: tag | relative_url }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
     {% endfor %} 
 --> 
-  
-   
-  </p> 
+
 </article>
-  
+
+<div id="progress-bar" style="position: fixed; top: 0; left: 0; height: 3px; background: var(--accent); width: 0; z-index: 999;"></div>
+
+<script>
+  (function() {
+    const bar = document.getElementById('progress-bar');
+    if (!bar) return;
+
+    window.addEventListener('scroll', function() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      bar.style.width = progress + '%';
+    }, { passive: true });
+  })();
+</script>
   
   
