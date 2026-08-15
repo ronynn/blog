@@ -5,18 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
 
-
     <style>
       :root {
-        --accent: #7c3aed; 
-        --text-main: #111827; /* Darker for better readability */
-        --text-muted: #6b7280;
+        color-scheme: light;
+        --accent: #6d28d9;
+        --text-main: #111827;
+        --text-muted: #4b5563;
         --bg-color: #ffffff;
-        --border-color: #e5e7eb;
+        --border-color: #d1d5db;
+        --code-bg: #f3f4f6;
+        --code-text: #111827;
         --font-sans: monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --accent: #a78bfa;
+          --text-main: #f9fafb;
+          --text-muted: #cbd5e1;
+          --bg-color: #0f172a;
+          --border-color: #334155;
+          --code-bg: #1f2937;
+          --code-text: #f9fafb;
+        }
       }
 
       * { box-sizing: border-box; }
+
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
 
       body {
         max-width: 850px;
@@ -27,11 +48,25 @@
         font-family: var(--font-sans);
         line-height: 1.6;
         -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        overflow-wrap: break-word;
+        transition: background-color 0.2s ease, color 0.2s ease;
       }
 
-      /* --- HEADER --- */
+      button {
+        font: inherit;
+      }
+
       header.site-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
         padding: 4rem 0 1rem 0;
+      }
+
+      .header-text {
+        min-width: 0;
       }
 
       .logo-link {
@@ -47,6 +82,7 @@
         font-weight: 800;
         margin: 0;
         letter-spacing: -0.02em;
+        line-height: 1.2;
       }
 
       .tagline {
@@ -55,13 +91,54 @@
         margin: 0.5rem 0 0 0;
       }
 
-      /* --- NAVIGATION --- */
+      .theme-toggle-input {
+        position: absolute;
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+        pointer-events: none;
+      }
+
+      .theme-toggle-label {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        cursor: pointer;
+        background: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-main);
+        border-radius: 999px;
+        padding: 0.5rem 0.8rem;
+        font-size: 0.95rem;
+        line-height: 1;
+        user-select: none;
+        transition: border-color 0.2s, color 0.2s;
+      }
+
+      .theme-toggle-label:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      #theme-toggle-input:checked ~ #page-wrapper {
+        color-scheme: dark;
+        --accent: #a78bfa;
+        --text-main: #f9fafb;
+        --text-muted: #cbd5e1;
+        --bg-color: #0f172a;
+        --border-color: #334155;
+        --code-bg: #1f2937;
+        --code-text: #f9fafb;
+      }
+
       nav.main-nav {
         margin: 2rem 0 4rem 0;
         display: flex;
         gap: 2rem;
         border-bottom: 1px solid var(--border-color);
         padding-bottom: 1rem;
+        overflow-x: auto;
       }
 
       nav.main-nav a {
@@ -69,31 +146,46 @@
         color: var(--text-main);
         font-weight: 600;
         font-size: 1rem;
-        position: relative;
+        padding: 0.5rem 0;
+        white-space: nowrap;
       }
 
       nav.main-nav a:hover { color: var(--accent); }
-      
-      /* Active state indicator */
-      nav.main-nav a.active { color: var(--accent); }
 
-      /* --- CONTENT STYLING --- */
+      nav.main-nav a[aria-current="page"] {
+        color: var(--accent);
+      }
+
       main {
-        font-size: 1rem; /* Slightly larger base font for readability */
+        font-size: 1rem;
       }
 
       h2, h3, h4 {
         color: var(--text-main);
         margin-top: 2.5rem;
         font-weight: 800;
+        line-height: 1.3;
       }
 
-      a { color: var(--accent); text-decoration: none; }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
       a:hover { text-decoration: underline; }
 
-      /* Post List Overrides (Matches your index.md) */
+      .logo-link,
+      nav.main-nav a {
+        text-decoration: none;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
       .posts-list { list-style: none; padding: 0; }
-      
+
       .post-item {
         display: flex;
         gap: 3rem;
@@ -105,7 +197,7 @@
         font-weight: 800;
         display: block;
         line-height: 0.9;
-        color: #e5e7eb; /* Light grey for that "background" date feel */
+        color: gray;
       }
 
       .post-date .month-year {
@@ -117,57 +209,137 @@
         margin-top: 0.2rem;
       }
 
-      .post-info h3 { margin: 0; font-size: 1.5rem; line-height: 1.2; }
-      .post-info p { margin: 0.5rem 0 0 0; color: var(--text-muted); font-size: 1rem; }
-
-      /* Mobile adjustments */
-      @media (max-width: 600px) {
-        .post-item { flex-direction: column; gap: 0.5rem; }
-        .post-date { text-align: left; }
-        header h1 { font-size: 1.8rem; }
+      .post-info h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        line-height: 1.2;
       }
-      
-      body, a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; max-width: 100%; }
-      
+
+      .post-info p {
+        margin: 0.5rem 0 0 0;
+        color: var(--text-muted);
+        font-size: 1rem;
+      }
+
       img {
         width: 75%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        }   
-      
-      code, pre { box-sizing: border-box; overflow-x: hidden; word-wrap: break-word; white-space: pre-wrap; overflow-wrap: break-word; background-color: lightgray;  padding: 0.2em 0.4em;  border-radius: 3px; }   
-      
-      
-      
-      
+        height: auto;
+        max-width: 100%;
+      }
+
+      code, pre {
+        box-sizing: border-box;
+        overflow-x: hidden;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        background-color: var(--code-bg);
+        color: var(--code-text);
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+        font-family: var(--font-mono);
+      }
+
+      pre {
+        padding: 1rem;
+      }
+
+      pre code {
+        padding: 0;
+        background: transparent;
+        white-space: pre-wrap;
+      }
+
+      footer.site-footer {
+        margin: 6rem 0 3rem 0;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 0 1rem;
+        }
+
+        header.site-header {
+          flex-direction: column;
+        }
+
+        header h1 {
+          font-size: 1.8rem;
+        }
+
+        nav.main-nav {
+          gap: 1rem;
+        }
+
+        .post-item {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .post-date {
+          text-align: left;
+        }
+
+        .post-date .day {
+          font-size: 2.25rem;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
     </style>
   </head>
-  
+
   <body>
-    <header class="site-header">
-      <a href="/" class="logo-link">
-        <h1>{{ site.title }}</h1>
-      </a>
-      <p class="tagline">{{ site.description }}</p>
-    </header>
-    
-    <script data-goatcounter="https://ronynn.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+    <input type="checkbox" id="theme-toggle-input" class="theme-toggle-input" aria-label="Force dark mode">
 
-    <nav class="main-nav">
-      <a href="{{ '/' | relative_url }}">Blog</a>
-      <a href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a href="{{ '/tech-stack/' | relative_url }}">Tech Stack</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-    </nav>
-    
-    <main>
-      {{ content }}
-    </main>
+    <div id="page-wrapper">
+      <header class="site-header">
+        <div class="header-text">
+          <a href="/" class="logo-link">
+            <h1>{{ site.title }}</h1>
+          </a>
+          <p class="tagline">{{ site.description }}</p>
+        </div>
 
-    <footer style="margin: 6rem 0 3rem 0; color: var(--text-muted); font-size: 0.9rem;">
-      <p>&copy; {{ "now" | date: "%Y" }} • {{ site.title }}</p>
-    </footer>
+        <label for="theme-toggle-input" class="theme-toggle-label" aria-hidden="true">🌙</label>
+      </header>
+
+      <script data-goatcounter="https://ronynn.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Blog</a>
+        <a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects/' %}aria-current="page"{% endif %}>Projects</a>
+        <a href="{{ '/tech-stack/' | relative_url }}" {% if page.url contains '/tech-stack/' %}aria-current="page"{% endif %}>Tech Stack</a>
+        <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>About</a>
+      </nav>
+
+      <main id="main-content">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; {{ "now" | date: "%Y" }} • {{ site.title }}</p>
+      </footer>
+    </div>
   </body>
 </html>
