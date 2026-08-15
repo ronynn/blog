@@ -27,7 +27,7 @@
       })();
     </script>
     <link id="syntax-light" rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css">
+      href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/dracula.css">
 
     <style>
       :root {
@@ -51,7 +51,7 @@
           --accent-contrast: #111827;
           --text-main: #f9fafb;
           --text-muted: #cbd5e1;
-          --bg-color: #0f172a;
+          --bg-color: #2e3440;
           --border-color: #334155;
           --code-bg: #1f2937;
           --code-text: #f9fafb;
@@ -64,7 +64,7 @@
         --accent-contrast: #111827;
         --text-main: #f9fafb;
         --text-muted: #cbd5e1;
-        --bg-color: #0f172a;
+        --bg-color: #2e3440;
         --border-color: #334155;
         --code-bg: #1f2937;
         --code-text: #f9fafb;
@@ -183,9 +183,15 @@
 
       h2, h3, h4 {
         color: var(--text-main);
-        margin-top: 2.5rem;
+        margin-top: 3.5rem;
         font-weight: 800;
         line-height: 1.3;
+      }
+
+      h1, h2, h3, h4 {
+        text-decoration: underline wavy var(--accent);
+        text-underline-offset: 0.2em;
+        text-decoration-thickness: 1.5px;
       }
 
       a {

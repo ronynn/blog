@@ -9,6 +9,7 @@ layout: default
   {% assign words = page.content | number_of_words %}
   {% assign minutes = words | divided_by: 180 %}
   {% if minutes < 1 %}1 min read{% else %}{{ minutes }} min read{% endif %}
+  { words } words
   {{ content }}
 <!-- 
     {% for tag in page.tags %}
