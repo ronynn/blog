@@ -19,18 +19,18 @@ I’ve also observed that the narrative context makes learning more memorable. W
 
 Building educational IF games requires a balance between providing meaningful educational content and creating a compelling narrative. The game should neither feel like a dry lecture nor be so engrossing in its story that the educational elements get lost. Striking this balance can be challenging, but there are key principles that help guide this process.
 
-1. **Incorporate Active Learning**: Rather than simply presenting facts, educational IF games should encourage players to engage with the material. This can include activities like solving puzzles, making moral decisions, or navigating complex scenarios that require the application of knowledge.
+1. Incorporate Active Learning: Rather than simply presenting facts, educational IF games should encourage players to engage with the material. This can include activities like solving puzzles, making moral decisions, or navigating complex scenarios that require the application of knowledge.
 
-2. **Create Contextualized Learning**: Place educational content within a relevant narrative context. For example, rather than teaching grammar rules in isolation, use a mystery story where players must communicate with characters using the target language, applying grammar and vocabulary in context.
+2. Create Contextualized Learning: Place educational content within a relevant narrative context. For example, rather than teaching grammar rules in isolation, use a mystery story where players must communicate with characters using the target language, applying grammar and vocabulary in context.
 
 
 ![](https://ronynn.github.io/blog/assets/images/oldcomp.jpg)
 
-3. **Give Meaning to Player Choices**: The player’s decisions should influence the outcome of the game. This reinforces the concept that learning is a process with consequences and rewards. In a math-based game, for instance, an incorrect calculation might lead to a temporary setback in the story, but the player can retry with new knowledge to move forward.
+3. Give Meaning to Player Choices: The player’s decisions should influence the outcome of the game. This reinforces the concept that learning is a process with consequences and rewards. In a math-based game, for instance, an incorrect calculation might lead to a temporary setback in the story, but the player can retry with new knowledge to move forward.
 
-4. **Personalize the Experience**: Different players have different learning styles, and educational IF games should adapt accordingly. This could involve offering hints, allowing players to choose the level of difficulty, or providing multiple paths based on different knowledge or interests.
+4. Personalize the Experience: Different players have different learning styles, and educational IF games should adapt accordingly. This could involve offering hints, allowing players to choose the level of difficulty, or providing multiple paths based on different knowledge or interests.
 
-5. **Feedback and Reflection**: Providing immediate feedback on a player’s choices allows them to understand the impact of their decisions, helping them learn from their mistakes and successes. Reflection can also be embedded into the narrative, where players can revisit their earlier choices to see how different actions would have led to different outcomes.
+5. Feedback and Reflection: Providing immediate feedback on a player’s choices allows them to understand the impact of their decisions, helping them learn from their mistakes and successes. Reflection can also be embedded into the narrative, where players can revisit their earlier choices to see how different actions would have led to different outcomes.
 
 ### Observations from Student Engagement with Educational IF
 
@@ -97,9 +97,9 @@ game.start_game()
 
 ### Explanation:
 
-- **Greeting and Interaction**: The game starts by asking the player for their name, adding a personal touch to the experience.
-- **Math Challenges**: The player must solve math problems within the context of a story, with each correct answer advancing the plot. This creates an educational framework that is contextualized within the game.
-- **Retry Mechanism**: If the player fails, they are given a chance to retry, reinforcing the concept of trial and error without penalizing the player too harshly. This feature is crucial for learning games, as it encourages resilience and persistence.
+- Greeting and Interaction: The game starts by asking the player for their name, adding a personal touch to the experience.
+- Math Challenges: The player must solve math problems within the context of a story, with each correct answer advancing the plot. This creates an educational framework that is contextualized within the game.
+- Retry Mechanism: If the player fails, they are given a chance to retry, reinforcing the concept of trial and error without penalizing the player too harshly. This feature is crucial for learning games, as it encourages resilience and persistence.
 
 ---
 

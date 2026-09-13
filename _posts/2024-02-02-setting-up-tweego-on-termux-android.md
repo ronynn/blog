@@ -101,5 +101,4 @@ You've successfully set up Termux and chosen a text editor! In the next part of 
 - Downloading Twine story formats
 - Creating your first interactive fiction game
 
-Stay tuned!
 

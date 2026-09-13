@@ -3,13 +3,13 @@ layout: post
 title: Correlating drinking water to increase in productivity
 ---
 
-It is widely known that staying hydrated is crucial for overall health, but emerging research also suggests that water intake can significantly affect cognitive performance and productivity. In many cases, even slight dehydration can impair brain function, reducing focus, memory, and mental clarity. This essay explores the potential correlation between drinking water and increased productivity, particularly in activities requiring concentration, such as programming, reading, and problem-solving tasks. Through a simple experiment, we can measure the effects of hydration on productivity by tracking both water consumption and performance in specific tasks. I will also include a data visualization using **Chart.js** to graphically represent the relationship between hydration and my productivity levels.
+It is widely known that staying hydrated is crucial for overall health, but emerging research also suggests that water intake can significantly affect cognitive performance and productivity. In many cases, even slight dehydration can impair brain function, reducing focus, memory, and mental clarity. This essay explores the potential correlation between drinking water and increased productivity, particularly in activities requiring concentration, such as programming, reading, and problem-solving tasks. Through a simple experiment, we can measure the effects of hydration on productivity by tracking both water consumption and performance in specific tasks. I will also include a data visualization using Chart.js to graphically represent the relationship between hydration and my productivity levels.
 
 **The Importance of Hydration on Cognitive Function**
 
 Water plays a crucial role in maintaining bodily functions, especially brain function. Dehydration can lead to physical and mental fatigue, irritability, and reduced cognitive performance. Research shows that even mild dehydration (as little as 2% loss in body weight due to water loss) can negatively affect mood, memory, and focus. Since the brain is primarily made up of water (approximately 75%), maintaining optimal hydration levels is essential for mental clarity and decision-making abilities.
 
-When it comes to tasks that demand sustained focus, such as **programming** or **reading complex material**, staying hydrated can enhance mental performance. Studies suggest that hydration improves concentration, reaction time, and the ability to solve complex problems—crucial attributes for knowledge work like programming, reading non-fiction, or engaging in intellectual conversations.
+When it comes to tasks that demand sustained focus, such as programming or reading complex material, staying hydrated can enhance mental performance. Studies suggest that hydration improves concentration, reaction time, and the ability to solve complex problems—crucial attributes for knowledge work like programming, reading non-fiction, or engaging in intellectual conversations.
 
 **The Experiment: Measuring Productivity with Water Intake**
 

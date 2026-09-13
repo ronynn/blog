@@ -1,7 +1,7 @@
 # _config.yml
 
 title: ronynn's blog
-description: "Opinionated Analysis of tech and productivity tools."
+description: "Opinionated analysis on computational humanities, productivity, and size-coding tech"
 baseurl: "/blog"               
 
 
@@ -26,7 +26,7 @@ include:
 
 
 timezone: UTC 
-permalink: /:year/:month/:day/:title/ 
+permalink: /:title/ 
 
 # Custom Variables
 # default_theme: # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest

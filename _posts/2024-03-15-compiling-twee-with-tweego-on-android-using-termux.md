@@ -79,5 +79,4 @@ In the next part of this tutorial series, we'll explore:
 
 Publishing your game online, and make an android app using it.
 
-Stay tuned!
 
