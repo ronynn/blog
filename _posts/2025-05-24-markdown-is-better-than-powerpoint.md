@@ -17,7 +17,7 @@ Slides have been the dominant format for presentations for decades. They have be
 
 But I think that we should do away with slides as the default or mandatory format for presentations. I think that we should use a different and better format: markdown.
 
-_ Here are some points that summarize the negatives of powerpoint slides: _
+_Here are some points that summarize the negatives of powerpoint slides:_
 
 -   Powerpoint slides require specific software or applications to run or display them, which may not be available or compatible on every device or platform.
 
@@ -39,7 +39,7 @@ _ Here are some points that summarize the negatives of powerpoint slides: _
 ![](https://ronynn.github.io/blog/assets/images/markdown.jpg)
 ---
 
-_ Markdown has many advantages over slides as a format for presentations. Here are some of them: _
+_Markdown has many advantages over slides as a format for presentations. Here are some of them:_
 
 -   Markdown is easy to write and read. It does not require any special software or skills to create or edit markdown files. We can use any text editor or word processor to write markdown text. We can also read markdown text easily without any formatting errors or distractions.
 
