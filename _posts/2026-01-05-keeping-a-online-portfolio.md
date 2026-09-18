@@ -6,7 +6,9 @@ title: Keeping an online portfolio
 
 In today’s digital age, maintaining an online portfolio is essential for anyone working in creative fields, design, development, or even freelance services. Whether you’re a graphic designer, web developer, writer, or photographer, an online portfolio serves as both a professional showcase and a digital resume. It allows you to display your work in a visually engaging, easily accessible format, giving potential employers, clients, or collaborators an instant look at your skills and past achievements. 
 
-While building and maintaining an online portfolio requires time and effort, the benefits far outweigh the downsides. This essay explores the advantages and disadvantages of having an online portfolio, discusses how it can be a source of motivation, and offers guidance on how to structure it to make the most of your work.
+While building and maintaining an online portfolio requires time and effort, the benefits far outweigh the downsides. 
+
+This post explores the advantages and disadvantages of having an online portfolio, discusses how it can be a source of motivation, and offers guidance on how to structure it to make the most of your work. It was originally built as part of my own Eisenhower Matrix to figure out whether to invest time into building a profile online.
 
 ## Pros of Keeping an Online Portfolio
 
@@ -22,7 +24,7 @@ One of the often-overlooked benefits of an online portfolio is its motivational 
 Additionally, having a public-facing portfolio keeps you accountable. It serves as a reminder that you need to continually create, improve, and update your work. The prospect of adding new projects to your portfolio can motivate you to learn new skills and push your limits.
 
 ### 4. Professional Image and Branding
-An online portfolio isn’t just about showcasing your work; it’s also about creating a personal brand. By carefully selecting the design, layout, and tone of your portfolio, you can create a cohesive, professional identity. A well-designed portfolio can communicate your design sensibilities, attention to detail, and overall professionalism. It’s also an opportunity to share your unique story—who you are, what drives you, and how your experiences shape your approach to work. This kind of self-presentation can be key in standing out in a competitive job market.
+By carefully selecting the design, layout, and tone of your portfolio, you can create a cohesive, professional identity. A well-designed portfolio can communicate your design sensibilities, attention to detail, and overall professionalism. It’s also an opportunity to share your unique story—who you are, what drives you, and how your experiences shape your approach to work. This kind of self-presentation can be key in standing out in a competitive job market.
 
 ### 5. Search Engine Visibility
 Having an online portfolio allows you to build a personal brand that’s discoverable by search engines. This is particularly valuable for developers, designers, or writers who are looking to attract freelance clients or job opportunities. If someone searches for your name or a relevant keyword related to your field, your portfolio can appear in search results, making it easier for people to find and contact you. This can drive more traffic to your site, potentially leading to collaborations, job offers, or clients who are interested in your services.
@@ -49,7 +51,7 @@ Additionally, for highly interactive fields like web development, a static portf
 
 ---
 
-## Best Practices for Structuring Your Portfolio
+## My Best Practices for Structuring Your Portfolio
 
 ### 1. Highlight Best Works at the Top
 When curating your portfolio, the most important rule is to showcase your best work at the top. First impressions matter, so start with the most impactful projects that clearly demonstrate your skills, creativity, and expertise. You can organize this section by categories (e.g., "Best Works," "Featured Projects," "Top Picks") to give potential clients or employers an easy way to find your most relevant pieces.
