@@ -4,7 +4,7 @@ title: TechStack
 permalink: /tech-stack/
 ---
 
-In recent times, choice of tech stack globally is shifting towards React just because AI knows it best, while I agree I'd still argue that simplicity, packet-size and closeness to native are still more important considerations for extensibility, specially for software that people will depend on. While one must be picking the right tool for the job, building skills to be confident in the tool takes time.
+In recent years, choice of tech stack globally is shifting towards React because AI tooling knows it best, while I agree I'd still argue that simplicity, bundle-size and closeness to native are still more important considerations for extensibility, especially for software that people will depend on. While one must be picking the right tool for the job, building skills to be confident in the tool takes time.
 
 I often don't code for months only to get back look at my projects clueless how my js code looks like perl. A main reason for this page to exist is to keep my observations and tools of choice in place, and avoid wasting time reading online framework wars and debates or start hunting for the best tool for the latest job.
 
@@ -12,17 +12,18 @@ I'm pretty much only focussed on javascript. I think kotlin might be the best la
 
 ## Go to Stack (Opinionated)
 
-- UI: petite-vue -> vue, preact+signals (+HTM) with Twind
-- Server: Flask/Sanic
+- UI: Petite-Vue -> Vue with Twind
+- Backend (Exploring): Flask/FastHTML/FastAPI + HTMX, Fresh (Deno, Preact+Signals), or Hono + Wouter with Pocketbase (or on Cloudfare Worker)
 - Canvas API + Matter.js (for physics) or Konva.js (for scene graph/events), ZDog (pseudo-3d), p5.js (has webgl mode), W by xem for sizecoding webgl projects
 
 
 ### Tools specific to when they are required
 
-- Data visualization: D3.js, Chart.js, µplot.js
+- Data visualization: Observable Plot, D3.js, Chart.js, µplot.js
+- ABM workflow: Python Mesa with numpy, pandas, plotly or matplotlib/seaborn, Netlogo, though vanillajs + d3.js approach is simpler and pragmatic at small scale
 - Analytics: Goatcounter (privacy friendly)
-- Fast server: FastAPI, Hono + Wouter with Pocketbase
-- SSG: Astro, Vuepress, Zola, Hugo, Pelican
+- Components: M3, BeerCSS, Vuetify, NuxtUI, DaisyUI
+- SSG: Astro, Zola, Pelican, Deno Lume
 - Vite with Deno for all sorts of testing and optimizations
 
 
@@ -112,15 +113,18 @@ My Laptop, from what I've read online, is one of those with locked bootloaders, 
 
 ## Interested in using for full projects someday
 
+- Raylib for 3d gamdev
 - Macroquad (Rust): The Rust Programming language book was delightful to read, previoualy wrote a small compiler for the inkle format as a learning demo
 - Tailwind with Daisy UI (too mainstream though, also npm installation gets stuck at postcss install step on all my devices)
 - Beercss (For material design UI)
+- FastHTML
 - Hugo, Zola
 - Solidjs
 - Phoenix web framework with Elixir, Gleam (Beam VM)
 - Moonscript with love2d (Cart Life Clone)
-- WASM4 with Assemblyscript (chrome dino clone)
-- F#, Julia, Q#, Qiskit(tutorials were nice, even played an android game that trains to think in qbits)
+- WASM4 with Assemblyscript (chrome dino clone but full game)
+- F#, Elixir, Julia,
+- Q#, Qiskit(tutorials were nice, even played an android game that trains to think in qbits)
 - GDScript Godot with point and click framework
 - Zed Editor on PC
 - Blender + Unreal Engine + Motion Capture

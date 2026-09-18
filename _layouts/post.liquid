@@ -7,7 +7,7 @@ layout: default
   <h2>{{ page.title }}</h2>
   <p>{{ page.date | date: "%B %d, %Y" }}</p>
   {% assign words = page.content | number_of_words %}
-  {% assign minutes = words | divided_by: 180 %}
+  {% assign minutes = words | divided_by: 200 %}
   {% if minutes < 1 %}1 min read{% else %}{{ minutes }} min read{% endif %},
   {{ words }} words
   {{ content }}
