@@ -6,7 +6,7 @@ author: ronynn
 
 2026 update: My opinions have some changes, additions and clarifications:- 
 
-1. You might be reliant on programming languages mostly commonly found pre-installed in consumer computers, which as of present will likely be the browser, then python2, ruby if you find a mac. And if you are proficient, use powershell, bash, perl as they will also be present depending on the computer.
+1. In a doomsday scenario, you might be reliant on programming languages found pre-installed in consumer computers, which as of present will likely be the browser, then python2, ruby if you find a mac. And if you are proficient, use powershell, bash, perl as they will also be present depending on the computer.
 2. You should probably not be using a system levels programming language anyway in a doomsday scenario, if you leave memory leaks among other bugs you can end up damaging the hardware in some cases.
 3. If you have the luxury to store software and can run it on the computers available, rely on those that don't completely rely on online package managers, and are easy enough for you that you can build most things from scratch using the stdlib (python3, bun, [odin compiler](https://www.gingerbill.org/article/2025/09/08/package-managers-are-evil/)). I for example am keeping termux apk on my phones, and copy of some js files from cdn for local projects: petite-vue, chart.js (I imagine I might need charts for anything I might build and they should look good from the beginning). Just vendoring your dependencies is enough.
 4. Debugging without gdb is a nice to have skill but you should ideally learn to debug all available tools properly.
