@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TechStack
+title: Tech Stack
 permalink: /tech-stack/
 ---
 
@@ -8,13 +8,13 @@ In recent years, choice of tech stack globally is shifting towards React because
 
 I often don't code for months only to get back look at my projects clueless how my js code looks like perl. A main reason for this page to exist is to keep my observations and tools of choice in place, and avoid wasting time reading online framework wars and debates or start hunting for the best tool for the latest job.
 
-I'm pretty much only focussed on javascript. I think kotlin might be the best language, but I don't [use](github.com/ronynn/shintaku) it often. 
+I'm pretty much only focussed on javascript. I think kotlin might be the best language, but I [don't use](github.com/ronynn/shintaku) it often. 
 
 ## Go to Stack (Opinionated)
 
 - UI: Petite-Vue -> Vue with Twind
-- Backend (Exploring): Flask/FastHTML/FastAPI + HTMX, Fresh (Deno, Preact+Signals), or Hono + Wouter with Pocketbase (or on Cloudfare Worker)
-- Canvas API + Matter.js (for physics) or Konva.js (for scene graph/events), ZDog (pseudo-3d), p5.js (has webgl mode), W by xem for sizecoding webgl projects
+- Backend (Exploring): Flask/FastHTML(uses HTMX), Fresh (Deno, Preact+Signals), or Hono + Wouter with Pocketbase (or on Cloudfare Worker)
+- Canvas API + Matter.js (for physics) or Konva.js (for scene graph/events), ZDog (pseudo-3d), p5.js (has webgl mode), W by xem for sizecoding webgl projects which don't need Aframe.js
 
 
 ### Tools specific to when they are required
