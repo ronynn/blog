@@ -15,7 +15,7 @@ permalink: /projects/
 ### Socials:
 
 - [Github](https://github.com/ronynn): Repository for all my apps and games
-- [Youtube](https://m.youtube.com/@overlyanalytic): video essays on technial stuff and discussions over my games
+- [Youtube](https://m.youtube.com/@ronynn89): video essays on technial stuff and discussions over my games
 - [Itch io](https://dobryncat.itch.io) : A Marketplace for indiegames
 - [Ldjam](https://ldjam.com/users/dobryn) : Popular gamejam that used to be twice a year, Notch created Minecraft originally for this game jam.
 - [Intfiction](https://intfiction.org/u/r01nx/summary): Forum for interactive fiction writers.
@@ -66,10 +66,11 @@ permalink: /projects/
 
 ### Games
 
+See [prototypes](https://ronynn.github.io/prototypes).
+
 - LifeSim2k (ongoing)
   - For Ifcomp 2026, the code gives me headache, this is like a foss bitlife clone with mod support.
 
-- [Glass flappy bird](https://ronynn.github.io/prototypes/flap5.html): Flappy bird clone with glassmorphism design ui, just a prototype.
 
 - Interview Interview: <https://ronynn.github.io/interview-interview/>
   - For SpringThing 2025, If you just have time to play one of my games, then play this one.
@@ -106,6 +107,7 @@ permalink: /projects/
   - Comments: [itch-io](https://itch.io/jam/devtober-2021/rate/1221110),
     [ldjam](https://ldjam.com/events/ludum-dare/49/type-unstable-vampire)
 
+
 - Gamejam Tycoon: <https://dobryncat.itch.io/gamejam-tycoon>
   - How long can you survive in your game jamming career.
   - Comments: [ldjam](https://ldjam.com/events/ludum-dare/50/gamejam-tycoon)
@@ -115,7 +117,7 @@ permalink: /projects/
   - Comments: [ifdb](https://ifdb.org/viewgame?id=qy37x4gjpzarqsil)
 
 - Catch That Kitty: <https://ronynn.github.io/Game-Jam-Submissions/catch.html>
-  - Go on a mission to retrieve a stolen kitty, and treasure.
+  - Go on a mission to retrieve a stolen kitty, and treasure. This and the following games were originally made with harlowe or sugarcube which I then ported to chapbook-2 much later for its bundle size, I expect a few bugs here and there.
   - Comments: [ifdb](https://ifdb.org/viewgame?id=allpmsmp8dsj3bh0)
 
 - Intergalactic Chat Simulator: [Play here](https://ronynn.github.io/Game-Jam-Submissions/igcs.html)
@@ -134,30 +136,19 @@ permalink: /projects/
 - [Cambro](https://github.com/ronynn/cambro): Camera app that has gameboy, polaroid and fujifilm filter effect that I made as an experiment.
 
 - Graphics Experiments: <https://ronynn.github.io/Graphics-Experiments>
-  - Code for stuff in p5js, TIC80, and glsl. Here are some q5js examples:
-  - Tic-tac-toe:
-        <https://ronynn.github.io/graphics-experiments/q5/tic-tac-toe.html>
-  - Bubble Sort algorithm animated:
-        <https://ronynn.github.io/graphics-experiments/q5/bubble-sort.html>
-  - Quick Sort algorithm animated:
-        <https://ronynn.github.io/graphics-experiments/q5/quick-sort.html>
-  - Fireworks:
-        <https://ronynn.github.io/graphics-experiments/q5/fireworks.html>
-  - Starfield (from Daniel Shiffman's tutorial):
-        <https://ronynn.github.io/graphics-experiments/q5/starfield.html>
+- Day Night Cycles, the second example forms the core of [atmos-xr](https://github.com/ronynn/atmos-xr), an android livewallpaper app, long press top region of the page for 4 seconds to move through time: <https://ronynn.github.io/graphics-experiments/daynight.html>, <https://ronynn.github.io/graphics-experiments/dawndusk.html>
+
+- Q5 is a minimalist WEBGPU supported port of P5.js library of the Processing Foundation: [Q5 Examples](https://ronynn.github.io/graphics-experiments/q5/index.html)
+
+- These examples were tested on OpenGL-ES: [GLSL Runner](https://ronynn.github.io/graphics-experiments/glsl/index.html)
+
+- Homepage Globe: <https://ronynn.github.io/graphics-experiments/globe.html>
+
+
 
 - Prototypes: <https://ronynn.github.io/prototypes>
 Always working on cool new stuff like:
   - Glasscalc: <https://ronynn.github.io/prototypes/glasscalc>
-  - Glasscalendar: <https://ronynn.github.io/prototypes/glasscalendar>
-  - catgpt: <https://ronynn.github.io/prototypes/catgpt>
-  - Glass flappy bird: <https://ronynn.github.io/prototypes/flap5.html>
-  - Material tic-tac-toe: <https://ronynn.github.io/prototypes/tic.html>
-    - Tried hard to make super tic tac toe.
-  - VR tests with aframe: <https://ronynn.github.io/prototypes/portvr.html>
-  - WebGL Rain: <https://ronynn.github.io/prototypes/old-weather/demo>
-    - Experience a rain simulation using WebGL technology. 
-
-- Bash Committer <https://ronynn.github.io/hardwork> : Obsessing over daily commits hinders learning.
-
-- Old Blog on Poetry and Story pieces: <https://mysteriousadventuresblog.wordpress.com>
+  - catgpt: <https://ronynn.github.io/prototypes/code/nolib/eliza>
+  - Glass flappy bird: <https://ronynn.github.io/prototypes/code/nolib/flap2.html>
+  - WebGL Rain, Experience a rain simulation using WebGL technology: <https://ronynn.github.io/prototypes/webglweather/demo>
