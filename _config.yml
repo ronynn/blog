@@ -1,0 +1,32 @@
+# _config.yml
+
+title: ronynn's blog
+description: "Opinionated analysis on computational humanities, productivity, and size-coding tech"
+baseurl: "/blog"               
+
+
+url: "https://ronynn.github.io"  
+
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+# theme: # minima   
+
+
+# paginate: 
+# paginate_path: #"/page:num"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+include:
+  - _pages
+
+
+timezone: UTC 
+permalink: /:title/ 
+
+# Custom Variables
+# default_theme: # Set to one of: gruvbox, monokai, dracula, nord, solarized, catppuccin, tokyo-night, everforest
