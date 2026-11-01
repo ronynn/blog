@@ -371,11 +371,16 @@
 
     <footer class="site-footer">
       <p>&copy; {{ "now" | date: "%Y" }} • {{ site.title }}</p>
-      <a href="{{ site.github.repository_url }}/discussions?discussions_q={{ page.title | url_encode }}">
-  💬 View Comments
-      </a>
-      <a href="{{ site.github.repository_url }}/blob/main/{{ page.path }}">Edit this page</a>
-      <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | url_encode }}">Share on X</a>
+      <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
+
+
+      <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a>
+
+      <a href="https://github.com/ronynn/blog">GitHub</a>
+      
+      <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url }}&text={{ page.title | url_encode }}">Share on X (Formerly Twitter)</a>
+      <br/>
+      Powered by ❤️ and <a href="https://jekyllrb.com">Jekyll (Ruby)</a>
     </footer>
 
     <script>

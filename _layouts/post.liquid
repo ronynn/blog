@@ -19,6 +19,10 @@ layout: default
 
 </article>
 
+<a href="{{ site.github.repository_url }}/discussions?discussions_q={{ 'in:title ' | append: page.title | url_encode }}">
+  💬 View Comments
+</a>
+
 <div id="progress-bar" style="position: fixed; top: 0; left: 0; height: 3px; background: var(--accent); width: 0; z-index: 999;"></div>
 
 <script>

@@ -9,4 +9,6 @@ layout: default
   {{ content }}
 </article>
   
-  
+<a href="{{ site.github.repository_url }}/discussions?discussions_q={{ 'in:title ' | append: page.title | url_encode }}">
+  💬 View Comments
+</a>
