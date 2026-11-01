@@ -1,6 +1,4 @@
-
 ---
-
 layout: post
 title: Organising life like I organise my bashrc file
 author: ronynn

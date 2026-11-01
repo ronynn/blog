@@ -1,6 +1,4 @@
-
 ---
-
 layout: post
 title: Markdown is better than powerpoint for making presentations
 ---

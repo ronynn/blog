@@ -1,7 +1,4 @@
-
-
 ---
-
 layout: post
 title: Correlating drinking water to increase in productivity
 ---
