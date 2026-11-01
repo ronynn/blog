@@ -12,6 +12,6 @@ I hope this repo will be useful to others. I sure hope you like the blog posts t
 
 🌐 Live Demo
 
-[View the demo here https://ronynn.github.io/blog
+View the demo here https://ronynn.github.io/blog
 
 

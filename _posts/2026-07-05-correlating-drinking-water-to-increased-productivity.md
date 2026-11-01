@@ -1,37 +1,32 @@
+
+
 ---
+
 layout: post
 title: Correlating drinking water to increase in productivity
 ---
 
-It is widely known that staying hydrated is crucial for overall health, but emerging research also suggests that water intake can significantly affect cognitive performance and productivity. In many cases, even slight dehydration can impair brain function, reducing focus, memory, and mental clarity. This essay explores the potential correlation between drinking water and increased productivity, particularly in activities requiring concentration, such as programming, reading, and problem-solving tasks. Through a simple experiment, we can measure the effects of hydration on productivity by tracking both water consumption and performance in specific tasks. I will also include a data visualization using Chart.js to graphically represent the relationship between hydration and my productivity levels.
+I noticed I wrote better code on days I drank more water. On its own that’s a weak observation — it could have been sleep, or coffee, or whether the codebase was behaving that week. It could also be that I am working on different subjects so the active work never feels stale. So I tracked it for seven days to see if the pattern held up.
 
-### The Importance of Hydration on Cognitive Function
+Staying hydrated is crucial for overall health, but emerging research also suggests that water intake can significantly affect cognitive performance and productivity, even slight dehydration can impair brain function, reducing focus, memory, and mental clarity. 
 
-Water plays a crucial role in maintaining bodily functions, especially brain function. Dehydration can lead to physical and mental fatigue, irritability, and reduced cognitive performance. Research shows that even mild dehydration (as little as 2% loss in body weight due to water loss) can negatively affect mood, memory, and focus. Since the brain is primarily made up of water (approximately 75%), maintaining optimal hydration levels is essential for mental clarity and decision-making abilities.
-
-When it comes to tasks that demand sustained focus, such as programming or reading complex material, staying hydrated can enhance mental performance. Studies suggest that hydration improves concentration, reaction time, and the ability to solve complex problems—crucial attributes for knowledge work like programming, reading non-fiction, or engaging in intellectual conversations.
-
-### The Experiment: Measuring Productivity with Water Intake
+The research on this is real but softer than the way it gets repeated. The figure people cite is that a 2% drop in body weight from water loss is enough to impair attention and mood. I haven’t read the primary papers closely enough to defend the exact number, but it matches what I notice: on days I forget to drink, I get foggy around 3pm and start making careless mistakes. The “brain is 75% water” line gets repeated everywhere and I don’t think it explains much — the useful part is simpler. Dehydration feels like tiredness, and tiredness makes me worse at programming and reading.
 
 To understand how hydration impacts productivity, I conducted a simple self-assessment experiment over a span of 7 days. During this period, I systematically tracked two variables:
 
 1. Water Intake: The amount of water consumed per day (measured in liters).
 2. Productivity: The efficiency and focus in various activities, specifically programming and reading non-fiction books.
 
-For simplicity, each activity was assigned a productivity score from 1 to 10 based on how well I performed. This score was influenced by subjective factors such as:
+So: seven days, two things logged. Liters of water. And a 1–10 score for how each day went on programming, creativity/writing tasks and on reading non fiction.
+
+This score was influenced by subjective factors such as:
 - Focus and energy levels during the task.
 - Time spent on task without distractions.
 - The quality of output in terms of problem-solving, reading comprehension, and coding productivity.
 
-### Activities Measured:
-1. Programming: The ability to solve coding problems efficiently, write bug-free code, and develop new features without frequent distractions or mental blocks.
-2. Reading Non-Fiction: The ability to focus and comprehend non-fiction materials (such as articles, books, and research papers), highlighting the speed at which new concepts were absorbed.
-3. Writing/Creative Tasks: Writing essays, creating content, or engaging in creative problem-solving tasks.
+The score was subjective. I gave it based on focus, how long I went before checking my phone, and whether the code worked the first time. 
 
-
-
-Here’s a simple chart that plots the relationship between my water intake and my productivity rise in both programming and reading activities:
-
+Here’s the chart:
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -86,8 +81,6 @@ Here’s a simple chart that plots the relationship between my water intake and 
   </script>
 
 
-### Explanation of the Chart:
-
 - X-axis: Represents the days of the week, with the data points corresponding to each day of the experiment.
 - Y-axis: The scale on the left represents the productivity score (1-10), and the scale on the right shows water intake in liters.
 - Lines and Bars: The chart contains three datasets:
@@ -96,15 +89,8 @@ Here’s a simple chart that plots the relationship between my water intake and 
   
 From this chart, we can visually assess whether there is a noticeable correlation between the amount of water consumed and productivity levels for both programming and reading.
 
-### Key Observations from the Data:
+What the data actually says is less clean than I expected. The two best days for both programming and reading were Day 5 and Day 6, which were also the two highest water days (2.5 and 3.0 liters). Day 1 was the lowest water (1.5) and the lowest scores. That part looks like a correlation.
 
-- On days with higher water intake (such as Day 5 and Day 6, with 2.5 and 3.0 liters of water), both programming productivity and reading productivity were noticeably higher.
-- On the other hand, on days with lower water intake (like Day 1, with 1.5 liters), both productivity scores were lower, suggesting a potential link between hydration and cognitive performance.
+But Day 4 had 1.8 liters and scored 6 and 5, which is close to Day 1. And Day 7 had 2.0 liters and scored 7 and 6 — the same scores as Day 2 at the same intake, but lower than Day 3 at 2.3 liters. So the line isn’t clean. A week of data from one person isn’t going to settle anything, and I’d need a lot more days before I trusted the trend.
 
-While the experiment was self-reported and small-scale, the trend shown in the data supports existing scientific claims that proper hydration can improve cognitive function, focus, and overall productivity.
-
-
-
-Drinking water may correlate with an increase in productivity, especially in cognitive tasks such as programming and reading non-fiction. Hydration appears to improve mental clarity and focus, resulting in higher performance in activities requiring sustained concentration. Of course, this experiment is based on my own data and would need to be validated with a larger sample size and more rigorous controls. However, the trend suggests that staying hydrated can indeed help improve my productivity—whether I am writing code, reading, or engaging in other mentally demanding tasks.
-
-By incorporating such habits into our daily routines, it is possible to enhance cognitive efficiency, leading to more productive workdays and improved overall well-being.
+The thing I didn’t expect: tracking water made me drink more water. The measurement changed the behaviour. That might be the real finding here — not that hydration causes productivity, but that paying attention to hydration for a week made the afternoons less foggy, and the foggy afternoons were the ones I was trying to explain in the first place.
